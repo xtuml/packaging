@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- contextQualifierLength=14 -->
+<feature
+      id="org.eclipse.amalgam.discovery"
+      label="Eclipse Modeling Discovery UI"
+      version="1.2.0.v20110608-1648"
+      provider-name="Eclipse Modeling Project">
+
+   <description url="http://www.eclipse.org/modeling/amalgam">
+      The Eclipse Modeling Amalgam project is focused on providing a complete and streamlined modeling environement based on Eclipse.
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      Copyright (c) 2009 Obeo and others.
+All rights reserved.   This program and the accompanying materials
+are made available under the terms of the Eclipse Public License
+v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="Eclipse Modeling Project Updates" url="http://www.eclipse.org/modeling/updates"/>
+      <discovery label="Eclipse Modeling Project Updates" url="http://www.eclipse.org/modeling/updates"/>
+   </url>
+
+   <plugin
+         id="org.eclipse.amalgam.discovery.core"
+         download-size="0"
+         install-size="0"
+         version="1.2.0.v20110608-1648"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.amalgam.discovery.modeling"
+         download-size="0"
+         install-size="0"
+         version="1.2.0.v20110608-1648"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.amalgam.discovery.ui"
+         download-size="0"
+         install-size="0"
+         version="1.2.0.v20110608-1648"
+         unpack="false"/>
+
+</feature>

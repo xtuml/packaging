@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.gmf.source" version="1.5.0.v20110607-1200-7d9Q7HFYnmMEynz0X0qrbsDiK281" label="%featureName" provider-name="%providerName" image="eclipse_update_120.jpg"    >
+	<description url="http://www.eclipse.org/gmf">
+		%description
+	</description>
+	<copyright url="http://www.eclipse.org/legal/epl-v10.html">
+		Copyright (c) 2002-2006 IBM Corporation and others.
+All rights reserved.   This program and the accompanying materials
+are made available under the terms of the Eclipse Public License v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<url>
+		<update url="http://download.eclipse.org/modeling/gmf/updates/releases/" label="%updateSiteName"/>
+	</url>
+	<plugin id="org.eclipse.gmf.runtime.common.core.source" version="1.4.1.v20101119-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.common.ui.source" version="1.5.0.v20101221-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.common.ui.action.source" version="1.5.0.v20110607-1200"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.common.ui.action.ide.source" version="1.5.0.v20101221-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.common.ui.services.source" version="1.3.1.v20101118-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.common.ui.services.action.source" version="1.4.0.v20100430-1518"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.common.ui.services.dnd.source" version="1.5.0.v20101221-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.common.ui.services.dnd.ide.source" version="1.5.0.v20101221-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.common.ui.services.properties.source" version="1.3.1.v20101221-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.diagram.core.source" version="1.4.1.v20101221-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.diagram.ui.source" version="1.5.0.v20110309-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.diagram.ui.actions.source" version="1.4.1.v20101221-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.diagram.ui.dnd.source" version="1.2.0.v20090403-1720"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.diagram.ui.geoshapes.source" version="1.4.1.v20101119-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.diagram.ui.properties.source" version="1.4.2.v20101129-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.diagram.ui.providers.source" version="1.5.0.v20110216-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.diagram.ui.providers.ide.source" version="1.2.0.v20090403-1720"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.diagram.ui.render.source" version="1.4.1.v20101119-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.diagram.ui.resources.editor.source" version="1.4.1.v20101119-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.diagram.ui.resources.editor.ide.source" version="1.2.1.v20101119-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.draw2d.ui.source" version="1.5.0.v20110505-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.draw2d.ui.render.source" version="1.4.1.v20101119-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.draw2d.ui.render.awt.source" version="1.4.1.v20101222-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.emf.clipboard.core.source" version="1.5.0.v20110529-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.emf.commands.core.source" version="1.4.0.v20100423-2359"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.emf.core.source" version="1.4.1.v20101222-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.emf.type.core.source" version="1.4.0.v20100423-2359"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.emf.type.ui.source" version="1.2.0.v20090403-1720"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.emf.ui.source" version="1.2.0.v20090403-1720"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.emf.ui.properties.source" version="1.5.0.v20101222-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.gef.ui.source" version="1.4.1.v20101222-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.notation.providers.source" version="1.3.0.v20100115-2350"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.source" version="1.4.1.v20100716-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.common.ui.printing.source" version="1.4.0.v20100223-2359"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.common.ui.printing.win32.source" version="1.4.0.v20100223-2359"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.diagram.ui.printing.source" version="1.4.1.v20101119-2230"     unpack="false"/>
+	<plugin id="org.eclipse.gmf.runtime.diagram.ui.printing.render.source" version="1.4.1.v20101119-2230"     unpack="false"/>
+</feature>

@@ -1,0 +1,403 @@
+#!perl -w
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# (C) Copyright Mentor Graphics Corporation  (2004-2005)               #
+# All rights reserved.                                                 #
+#______________________________________________________________________#
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# For help by user...
+my $help_info = <<'##done##';
+# Title:               Report viewer                                   #
+# File Name:           xtumlmc_report.pl                               #
+#                                                                      #
+# Protocol -                                                           #
+#   $ xtumlmc_report.pl -d directory -vd directory -vr directory       #
+#     -d = date directory to generate reports for                      #
+#     -vr = directory of the verified good reports                     #
+#     -vd = (optional) Variation directory in a date directory to run  #
+#           (specify in leui of -d)                                    #
+#     -h  = bring up this screen                                       #
+#                                                                      #
+#                                                                      #
+# Example                                                              #
+#   xtumlmc_report.pl -d 050801 -vr validrpts                          #
+#   -collects reports from the August 1, 2005 test run, and compares   #
+#    them to the reports under validrpts                               #
+# Abstract -                                                           #
+#   This file generates reports from tests.                            #
+#
+# -- End information for help
+##done##
+#                                                                      #
+# Notes -                                                              #
+#   Requires Perl.                                                     #
+#                                                                      #
+# Who  Date      Change                                                #
+# -------------------------------------------------------------------- #
+# AJW   6-13-05  Rewrote previous rox_report as a perl script          #
+#                Added in more reporting                               #
+# AJW   6-17-05  Made report HTML                                      #
+#______________________________________________________________________#
+
+use Cwd;
+my $valid_ring_timers = "";
+my $valid_ring_timers_file = "";
+my $beginning_epoch;
+my $start_time;
+my $ending_epoch;
+my $end_time;
+
+my %valid_reports = (
+	$valid_ring_timers_file => $valid_ring_timers );
+sub printhelp { print $help_info; exit; } # Print help.
+
+my @directory_listing;
+my $master_dir = "none";
+my $curent_dir;
+my @failures;
+my @successes;
+my %diffs;
+
+#---------------------------------------------------------------------------------------
+# gen_reports
+# parameters - string of directory the global report is in
+#            - string of the name of the global report
+#            - string of the directory of the variation
+# returns    - nothing
+# This function generates the log files for the variation directory passed into it.
+#---------------------------------------------------------------------------------------
+
+sub gen_report( $$$ );
+sub gen_report( $$$ )
+{
+  my $directory = shift(@_);
+  my $global_log_file = shift(@_);
+  my $vardir = shift(@_);
+  $log_dir = "$directory/log";
+  opendir DIR,$log_dir;
+  my @entries = readdir(DIR); # Get all files in the directory.
+  # Look at each entry from readdir.
+  foreach $the_file( @entries )
+  {
+    next if $the_file !~ /log/i; # If this isn't a log, go on.
+	next if $the_file =~ /html/i; # Safety check, also skip if it is html.
+    print "generating report for logfile $the_file\n";
+    
+    #Is it a compiler file?
+    my $not_a_compiler_file = 0;
+    if( $the_file !~ /gen/ && $the_file !~ /exec/ )
+    {
+      $not_a_compiler_file = 1;
+    }
+				
+    $filename = "$log_dir/$the_file";
+	
+    # Get the first part of the file.
+    @fileparts = split( /'\.'/,$the_file );
+    $new_filename = "$log_dir/$fileparts[0]-error.rpt.html";
+    $diff_filename = "$master_dir/$fileparts[0]-error.rpt.html";
+    
+    # Open up all the files we need.
+    open( RPTFILE,">$new_filename" ) or die "Error creating report file.\n"; # Open the grep report.
+    open( RESFILE,">>$global_log_file" ); # Concatenate to the end of the global report.
+    open( LOGFILE,"$filename" ) or die "Error opening log file.\n";
+    open( DIFFFILE,"$diff_filename" );
+		
+		
+    # Check if a previous log exists.
+    my $file_exists = 1;
+    if( -e "$diff_filename" )
+    {
+      open( DIFFFILE,"$diff_filename" );
+    }
+    else
+    {
+      $file_exists = 0;
+    }
+		
+    $executable = 0;
+    @parts = split ( /'-'/, $fileparts[0] );
+    foreach $bits(@parts)
+    {
+      if( $bits eq "gen" )
+      {
+        $executable = 1;
+      }
+    }
+    
+    # Grep for all the information we want.
+    my @file_lines = <LOGFILE>;
+    @temp_lines = grep {!/Xlating:/i} @file_lines;
+    @temp_lines2 = grep {!/LogFail/i} @temp_lines;
+    my $no_exe = grep /\.exe: No such file or directory/,@temp_lines2;
+    $failure_count = grep /failur/i,@temp_lines2;
+    $failure_count = $failure_count + $no_exe;
+    
+    @temp_lines = grep {!/Xlating:/i} @file_lines; 
+    @temp_lines2 = grep {!/RRORS.rpt/i} @temp_lines; 
+    $error_count = grep /rror/i,@temp_lines2;
+
+    @temp_lines = grep {!/xtUML model warnings issued/i} @file_lines;
+    @temp_lines2 = grep {!/WARNINGS.rpt/i} @temp_lines;
+    @temp_lines3 = grep {!/warnings/i} @temp_lines2;
+    $warning_count = grep /arning/i,@temp_lines2;
+    
+    my $exceptions = grep /Unknown Exception/i,@temp_lines2;
+    my $clean_quit = grep /UserPostShutdownCalloutf/,@temp_lines2;
+    my $is2020_exe = grep /_Process_c::Initialize/,@temp_lines2;
+    $seg_faults =    grep /segmen/i,@temp_lines2;
+    $seg_faults = $seg_faults + $exceptions;
+    if ( ( $filename =~ /-exec.log/ ) && ( $is2020_exe != 1 ) && ( $clean_quit != 1 ) ) { $seg_faults = $seg_faults + 1; }
+
+    @temp_lines = @file_lines;
+    $success = grep /SYSTEM BUILD COMPLET/i,@file_lines;	
+    
+    # Get line count.
+    $wc = 0;
+    seek LOGFILE,0,0;
+    while(<LOGFILE>)
+    {
+      $wc = $wc + 1;
+	}
+		
+	# Get the begin and end time by finding the earliest and oldest
+	# files, and grabbing the date from the time logs at the
+	# beginning and end of the file.
+	
+    my @stats = stat $filename;
+    # Is this the youngest file we've seen, or the first file we've seen?
+    if( !defined $beginning_epoch || $stats[9] < $beginning_epoch )
+    {
+	  # Yes, store the beginning date.
+      @splitop = split/ at /,$file_lines[0];
+      $start_time = $splitop[1];
+      $beginning_epoch = $stats[9];
+	}
+	
+	# Is this the oldest file we've seen, or the first file we've seen?
+    if( !defined $ending_epoch || $stats[9] > $ending_epoch )
+    {
+      # Is the last line the time line (has at in it)
+      # At was chosen because every log is xxx ended at <time>.
+      if( $file_lines[$wc-1] =~ /at/ )
+      {
+        # Yes, store the date, splitting at the 'at', so we 
+        # only get the date at the end.
+        @splitop = split( / at /,$file_lines[$wc-1] );
+        $end_time = $splitop[1];
+      }
+      else
+      {
+        # Only the date was stored at the end, no at, so get the whole line.
+        $end_time = $file_lines[$wc-1];
+      }			
+      $ending_epoch = $stats[9];			
+    }
+
+    @temp_lines = grep {!/Xlating:/i} @file_lines; 			
+    $log_failures = grep /LogFail/i, @temp_lines;
+			
+    my $wc_limit = 0;
+    # Do a "diff" on the log file we have and our master, good file.
+    # Read in all entries from the good file, and see how they compare to what we got.
+    my $diff = 0;
+    my @diff_lines = ();
+    if( $file_exists == 1 )
+    {
+      @diff_lines = <DIFFFILE>;
+      my $file = "";
+	  ($file,$diff_faults,$diff_log_failures,$diff_failure_count,$diff_error_count,$diff_warning_count,$diff_wc) = split( ' ',$diff_lines[5] );
+      $wc_limit = $diff_wc*.5;
+      if( $diff_faults != $seg_faults || $diff_log_failures != $log_failures || $diff_failure_count != $failure_count || 
+			   $diff_error_count != $error_count || $diff_warning_count != $warning_count || $wc < $wc_limit )
+      {
+        $diff = 1;	
+      }
+    }
+	
+	# If the previous logfile doesn't exist, assign the wc to the wc we would have gotten from the log file.
+	# This way, the nonexistence of a log file doesn't trigger an issue in number of lines	.
+    if( $file_exists == 0 )
+    {
+      $diff = 2;
+      $diff_wc = $wc;
+    }
+		
+	
+	# Come up with all the output. 	
+    print RPTFILE "<html>\n<body>\n<h1 align=\"center\">$the_file</h1><PRE>\n";
+    print RPTFILE "Filename                           |     Faults    |  Log Failues | Failures | Errors | Warnings   | Line count |              Directory name | Success  | Diff \n";
+    print RPTFILE "----------------------------------------------------------------------------------------------------------------------------------------------------------------\n";
+		
+    my $local_output1 = sprintf "%-34s",$the_file,$the_file;
+    my $global_output1 = sprintf "<a href=\"%slog/%s\">%-34s</a>",$vardir,$the_file,$the_file;
+    $global_output1 =~ s/://;
+    my $output1 = sprintf "%17d%14d%11d%9d%12d",$seg_faults,
+		,$log_failures,$failure_count,$error_count,$warning_count;
+    my $output2;
+    if( $not_a_compiler_file == 0 )
+	{
+      if( $log_failures == 0 && $failure_count == 0 && $error_count == 0 && $seg_faults == 0 && $wc > $wc_limit )
+      {
+        $output2 = sprintf "%12d%30s    yes",$wc,$log_dir;
+      } 
+      else
+      {
+        $output2 = sprintf "%12d%30s    <B><FONT COLOR=red>no</B></FONT>",$wc,$log_dir;
+      }	
+	}
+    else
+    {
+      $success_str = "yes";
+      if( $success == 0 || ($log_failures != 0 || $failure_count != 0 || $error_count != 0 || $seg_faults != 0 || $wc < $wc_limit ))
+      {
+        $success_str = "<B><FONT COLOR=red>no</B></FONT>";
+      }
+      $output2 = sprintf "%12d%30s    %s",$wc,$log_dir,$success_str;
+    }
+    
+    my $local_output3 = "";
+    my $global_output3 = "";
+    
+    # Take care of the diffs.
+    if( $diff == 0 )
+    {
+      $global_output3 = sprintf "       No differences exist\n";
+      $local_output3 = sprintf "      No differences exist\n";
+    }
+    elsif( $diff == 1 )
+    {
+      $local_output3 = sprintf "      <a href=\"../%s\">%s</a> \n",$diff_filename,"      Yes, click here to view the previous report";
+      $global_output3 = sprintf "      <a href=\"../%s\">%s</a> \n",$diff_filename,"Yes, click here to view the previous report";
+    }
+    else
+    {
+      $global_output3 = sprintf "      No previous logfile exists\n";
+      $local_output3 = sprintf "      No previous logfile exists\n";
+    }
+    $local_output_str = $local_output1.$output1.$output2.$local_output3;
+    $global_output_str = $global_output1.$output1.$output2.$global_output3;
+    print RPTFILE $local_output_str;
+    print RESFILE $global_output_str;
+		
+    print RPTFILE "</PRE></body></html>\n";
+    print RESFILE "\n";
+    close RPTFILE;
+    close RESFILE;
+    close LOGFILE;
+    close DIFFFILE;
+  } # This is the end of every log file's loop.
+}
+
+#----------------------------------------------------------------------------
+# This is Clay's awsome command line argument interpreter.  Run this to
+# load all options in a hash called "%comnd_opts".  The hash key values are
+# the command line switches, for example "-path" and the matching value
+# of the hash is the option that follows the switch.  A switch is
+# identified as a sting that starts with a '-' or a '/' any other
+# arguments are considered an option for the preceding switch.
+#----------------------------------------------------------------------------
+my %comnd_opts;
+for ( my $i = 0; $i < @ARGV; $i++ ) 
+{
+  $ARGV[$i] =~ s/^-// and $comnd_opts{ $ARGV[$i] }= "";
+  @ARGV >= ($i+2) and $ARGV[$i+1] !~ /^-/ and ($comnd_opts{ $ARGV[$i] } = $ARGV[$i + 1], ++$i);
+}
+
+
+$work_directory = "none";
+$var_directory = "none";
+$current_dir = cwd();
+foreach $k ( sort keys %comnd_opts ) 
+{
+  $k =~ /^(h|help)$/i and &printhelp;
+  $k =~ /^(d)$/i and $work_directory = $comnd_opts{$k};
+  $k =~ /^(vr)$/i and $master_dir = $comnd_opts{$k};
+  $k =~ /^(vd)$/i and $var_directory = $comnd_opts{$k};
+}
+
+# Call the help function if no options are specified.
+&printhelp if( !keys( %comnd_opts ) );
+
+# If we specified a variation dir, rather than a dated dir, assign the variation dir to 
+# the directory we work on.
+if( $var_directory ne "none" )
+{
+  $work_directory = $var_directory;
+}
+
+if( $work_directory eq "none" || $master_dir eq "none" )
+{
+  print "Please specify both the location of the test run and the verified good directories on the command line\n";
+  exit;
+}
+
+# Get the date we're working in, in case the user specified a variation directory.
+($date,$var)=split( '/',$work_directory );
+undef $var;
+
+# Read in all entries in the working directory.
+opendir ROOTDIR,$work_directory or die "Error opening test directory.\n";
+my @entries = readdir( ROOTDIR ); # Get all files in the directory.
+
+my $root_log_file = "$work_directory/global-log-$date.rpt.html";
+
+# Try to open the valid reports directory.
+opendir TEST_MASTER_DIR,$master_dir or die "Error opening valid reports directory.\n";
+close TEST_MASTER_DIR;
+print "Collecting logs\n";
+
+# Fix for windows.
+if( $current_dir =~ /cygdrive/ )
+{
+  $current_dir =~ s/\/cygdrive\///;
+  @paths = split /\//,$current_dir;
+  $paths[0] = $paths[0].":";
+  $new_dir = "$paths[0]";
+  foreach $entry( @paths )
+  {
+    next if $entry eq $paths[0];
+    $new_dir = $new_dir."/$entry";
+  }
+  $current_dir = $new_dir;
+}
+
+# Print out some header stuff to the global report.
+open( GLOBAL1,">$root_log_file" );
+print GLOBAL1 "<html>\n<body>\n<h1 align=\"center\">$work_directory Test Run Results</h1><PRE>\n";
+print GLOBAL1 "Filename                          |   Faults      |  Log Failues | Failures | Errors | Warnings   | Line count |              Directory name | Success | Diff   \n";
+print GLOBAL1 "----------------------------------------------------------------------------------------------------------------------------------------------------------------\n";
+close GLOBAL1;
+
+# If the user just specified a variation, skip looking in dated directory.
+if( $var_directory ne "none" )
+{
+  gen_report($var_directory,$root_log_file,"");
+}
+else # Loop through all entries, only going on if it is a variation.
+{
+  foreach $the_dirs( @entries )
+  {
+    next if( $the_dirs =~ /rpt/); # Skip over the global report.
+    if($the_dirs =~ /^[a-zA-z]/) 
+    {
+      print "generating reports for $the_dirs\n";
+      $dir = "$work_directory/$the_dirs";
+      gen_report($dir,$root_log_file,"$the_dirs/");	
+    }
+  }
+}
+
+# Print times and exit.
+open( GLOBAL,">>$root_log_file" );
+print "\n\nReports began at $start_time\n";
+print "and ended at $end_time\n";
+print GLOBAL "Began the testing at $start_time and ended at $end_time</PRE></body></html>\n";
+close GLOBAL;
+close ROOTDIR;
+print "Done collecting logs\n";
+	
+
+
+
+		

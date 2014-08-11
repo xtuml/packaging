@@ -1,0 +1,82 @@
+#!/usr/bin/perl -w
+#|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|#
+#| Program name:          BridgePoint Model Debugger Simulator        |#
+#| Creation date:         October 9, 2002                             |#
+#| Author:                Cortland D. Starrett                        |#
+#|                                                                    |#
+#| Change Log:                                                        |#
+#|                                                                    |#
+#| Initial  Date      Reason                                          |#
+#| ------------------------------------------------------------------ |#
+#|   CDS    02/10/09  initial creation (from perlipc man page)        |#
+#|                                                                    |#
+#| Protocol -                                                         |#
+#|    % bpmdsim.pl                                                    |#
+#|                                                                    |#
+#| Examples -                                                         |#
+#|    % bpmdsim.pl                                                    |#
+#|                                                                    |#
+#| Function -                                                         |#
+#|    This program simulates the channel communication behavior       |#
+#|    of the BridgePoint Model Debugger.  It is flexible and          |#
+#|    easy to change.                                                 |#
+#|                                                                    |#
+#| Notes -                                                            |#
+#|    We need to add file I/O and record/playback capability.         |#
+#|                                                                    |#
+#| (C) Copyright 2002-2013 Mentor Graphics Corporation                |#
+#|     All rights reserved.                                           |#
+#|____________________________________________________________________|#
+
+use IO::Socket;
+use Net::hostent;              # for OO version of gethostbyaddr
+
+$PORT = 3593;                  # bp_md
+
+$server = IO::Socket::INET->new(
+  Proto     => 'tcp',
+  LocalPort => $PORT,
+  Listen    => SOMAXCONN,
+  Reuse     => 1 );
+
+die "can't setup server" unless $server;
+print "[Server $0 accepting clients]\n";
+
+#
+# Loop accepting new connections.
+#
+my $s = "";
+while ($client = $server->accept()) {
+  $client->autoflush(1);
+  $s = '<debug cmd="Begin Session" ts="' . (scalar localtime) . '" />';
+  print $client $s;
+  print "-->", $s, "\n";
+  #
+  # Loop sending/receiving messages.
+  #
+  while ( <$client> ) {
+    print "<-- ", $_;
+    if (/Session Done/i) {
+      last;
+    } elsif (/Notify Target Shutdown/i ) {
+      last;
+    } elsif (/Add Domain/i ) {
+      $s = '<debug cmd="Start Execution" context="0" ts="' .
+        (scalar localtime) . '"/>';
+      print $client $s, "\n";   # Send acknowledgement.
+      print "-->", $s, "\n";
+    } elsif ( (/Session Ready/i) ||
+              (/Notify State Entry/i) ||
+              (/Notify Activity Pending/i) ) {
+      $s = '<debug cmd="Start Execution" context="0" ts="' .
+        (scalar localtime) . '"/>';
+      print $client $s, "\n";
+      print "-->", $s, "\n";
+    } else {
+      # Don't do anything.
+    }
+  } continue {
+      # Don't do anything.
+  }
+  close $client;
+}
