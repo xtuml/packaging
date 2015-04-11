@@ -1,7 +1,7 @@
 @ECHO OFF
 ECHO setting up environment for mingw32 GNU tools
 
-SET INSTALLDIR=C:\mgc\BridgePoint
+SET INSTALLDIR=C:\xtuml\BridgePoint
 
 REM set this directory to match your machine...
 set GNUROOT=%INSTALLDIR%\MinGW
