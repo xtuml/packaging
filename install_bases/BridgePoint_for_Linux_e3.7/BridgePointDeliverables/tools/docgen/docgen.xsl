@@ -15,7 +15,7 @@ article   toc,title,figure,table
 book      toc,title,figure,table,example,equation
 </xsl:param>
 <!--<xsl:include href="/usr/share/docbook-xsl/xhtml/docbook.xsl"/>-->
-<xsl:include href="C:/xtuml/BridgePoint/tools/docgen/docbook/docbook-xsl-1.75.1/xhtml/docbook.xsl"/>
+<xsl:include href="docbook.xsl"/>
 </xsl:stylesheet>
 
 
