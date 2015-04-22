@@ -1,9 +1,0 @@
-#!perl
-#=============================================================================
-# File:  rox_init_node
-#
-# Notice:
-# (C) Copyright 1999-2013 Mentor Graphics Corporation
-#     All rights reserved.
-#=============================================================================
-system( "$ENV{'ROX_MC_BIN_DIR'}/xtumlmc_build xtumlmc_init_workspace_3020 @ARGV" );
