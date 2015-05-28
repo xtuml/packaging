@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.equinox.p2.core.feature.source" version="1.3.0.v20140523-0116" label="%featureName" provider-name="%providerName">
+  <includes id="org.eclipse.equinox.p2.core.feature" version="1.3.0.v20140523-0116"/>
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.equinox.p2.artifact.repository.source" version="1.1.300.v20131211-1531" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.p2.console.source" version="1.0.300.v20131113-1212" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.p2.core.source" version="2.3.0.v20131211-1531" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.p2.director.source" version="2.3.100.v20140224-1921" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.p2.engine.source" version="2.3.0.v20140506-1720" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.p2.garbagecollector.source" version="1.0.200.v20131115-1210" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.p2.metadata.source" version="2.2.0.v20131211-1531" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.p2.metadata.repository.source" version="1.2.100.v20131209-2144" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.p2.repository.source" version="2.3.0.v20131211-1531" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.p2.touchpoint.eclipse.source" version="2.1.200.v20140512-1650" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.p2.touchpoint.natives.source" version="1.1.100.v20140523-0116" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.simpleconfigurator.manipulator.source" version="2.0.0.v20131217-1203" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.frameworkadmin.source" version="2.0.100.v20131209-2144" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.frameworkadmin.equinox.source" version="1.0.500.v20131211-1531" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.preferences.source" version="3.5.200.v20140224-1527" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.security.source" version="1.2.0.v20130424-1801" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.p2.jarprocessor.source" version="1.0.300.v20131211-1531" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.p2.ql.source" version="2.0.100.v20131211-1531" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.p2.transport.ecf.source" version="1.1.0.v20140408-1354" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.p2.operations.source" version="2.4.0.v20131119-0908" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.security.macosx.source" version="1.100.200.v20130327-1442" download-size="0" install-size="0" os="macosx" unpack="false"/>
+  <plugin id="org.eclipse.equinox.security.win32.x86.source" version="1.0.300.v20130327-1442" download-size="0" install-size="0" os="win32" arch="x86" unpack="false"/>
+  <plugin id="org.eclipse.equinox.security.win32.x86_64.source" version="1.0.100.v20130327-1442" download-size="0" install-size="0" os="win32" arch="x86_64" unpack="false"/>
+</feature>

@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.6.0_45
+Built-By: genie.modeling.emf.query
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+
+Name: epl-v10.html
+SHA1-Digest: hNPRR3joO5UV8+u/L0qjKV/Y2EE=
+
+Name: META-INF/maven/org.eclipse.emf.query.features/org.eclipse.emf.qu
+ ery.doc/pom.properties
+SHA1-Digest: C7vA1jXTAEC187184we6Kqq36vU=
+
+Name: modeling32.png
+SHA1-Digest: ADlLWFV0eQ74YnLvHnPFkYLeLrs=
+
+Name: META-INF/maven/org.eclipse.emf.query.features/org.eclipse.emf.qu
+ ery.doc/pom.xml
+SHA1-Digest: O7CEaMAngW4NmZs160os4dl9Do4=
+
+Name: license.html
+SHA1-Digest: Z5WKoRSIDCgQNswUpOU/oSPE2a0=
+
+Name: feature.properties
+SHA1-Digest: L2VGo3tlnWwHDCc72+TgCaIITyo=
+
+Name: feature.xml
+SHA1-Digest: GGiJrOObSZhCEzfYIHkeOAcFnj8=
+

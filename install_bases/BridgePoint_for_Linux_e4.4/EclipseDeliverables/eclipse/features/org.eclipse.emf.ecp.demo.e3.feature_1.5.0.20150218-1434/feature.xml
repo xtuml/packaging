@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.ecp.demo.e3.feature"
+      label="ECP e3 Demo Application"
+      version="1.5.0.20150218-1434"
+      provider-name="%providerName"
+      plugin="org.eclipse.emf.ecp.application.e3"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.emf.ecp.e3.feature"
+         version="1.5.0.20150218-1434"/>
+
+   <includes
+         id="org.eclipse.emf.ecp.emfforms.runtime.feature"
+         version="1.5.0.20150218-1434"/>
+
+   <includes
+         id="org.eclipse.emf.ecp.emfstore.feature"
+         version="1.5.0.20150218-1434"/>
+
+   <includes
+         id="org.eclipse.emf.ecp.workspace.feature"
+         version="1.5.0.20150218-1434"/>
+
+   <includes
+         id="org.eclipse.emf.ecp.view.model.editor.feature"
+         version="1.5.0.20150218-1434"/>
+
+   <includes
+         id="org.eclipse.emf.ecp.view.template.helper.feature"
+         version="1.5.0.20150218-1434"/>
+
+   <includes
+         id="org.eclipse.emf.ecp.view.model.controls.feature"
+         version="1.5.0.20150218-1434"/>
+
+   <requires>
+      <import plugin="org.eclipse.equinox.event"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.emf.ecp.application.e3"
+         download-size="85"
+         install-size="149"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+</feature>

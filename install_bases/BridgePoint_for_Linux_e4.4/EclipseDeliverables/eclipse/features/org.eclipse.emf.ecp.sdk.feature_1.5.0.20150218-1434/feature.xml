@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.ecp.sdk.feature"
+      label="ECP SDK 3.x"
+      version="1.5.0.20150218-1434"
+      provider-name="Eclipse Modeling Project">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.emf.ecp.emfforms.sdk.feature"
+         version="1.5.0.20150218-1434"/>
+
+</feature>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.emfstore.common.feature"
+      label="EMFStore Common"
+      version="1.4.1.v20150218-0800"
+      provider-name="Eclipse Modeling Project"
+      plugin="org.eclipse.emf.emfstore.common">
+
+   <description url="http://emfstore.org">
+      Contains common plugins of EMFStore that are used by other EMFStore features.
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.emf.ecore.xmi"/>
+      <import plugin="org.eclipse.emf.ecore"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.common.model"
+         download-size="119"
+         install-size="266"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.common"
+         download-size="462"
+         install-size="543"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+</feature>

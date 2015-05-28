@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.6.0_45
+Built-By: genie.modeling.emf.validation
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+
+Name: epl-v10.html
+SHA1-Digest: hNPRR3joO5UV8+u/L0qjKV/Y2EE=
+
+Name: modeling32.png
+SHA1-Digest: ADlLWFV0eQ74YnLvHnPFkYLeLrs=
+
+Name: license.html
+SHA1-Digest: Z5WKoRSIDCgQNswUpOU/oSPE2a0=
+
+Name: META-INF/maven/org.eclipse.emf.validation.features/org.eclipse.e
+ mf.validation.source/pom.properties
+SHA1-Digest: Hy3pAMuM9Nu2lm7JUxWm7IFedX8=
+
+Name: feature.properties
+SHA1-Digest: /X4MXbxkGUpeSQcqoI0AZIeJfJU=
+
+Name: META-INF/maven/org.eclipse.emf.validation.features/org.eclipse.e
+ mf.validation.source/pom.xml
+SHA1-Digest: 8XToKWWvhyrTjqUs/TOD7uoe/ws=
+
+Name: feature.xml
+SHA1-Digest: baneQY2PquEDbeIij3EXDRQNEpY=
+

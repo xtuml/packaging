@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.emfstore.sdk.feature"
+      label="EMFStore SDK"
+      version="1.4.1.v20150218-0800"
+      provider-name="Eclipse Modeling Project"
+      plugin="org.eclipse.emf.emfstore.branding">
+
+   <description url="http://emfstore.org">
+      This feature contains all core plugins including sources to use the EMFStore.
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.emf.emfstore.client.feature"
+         version="1.4.1.v20150218-0800"/>
+
+   <includes
+         id="org.eclipse.emf.emfstore.client.ui.feature"
+         version="1.4.1.v20150218-0800"/>
+
+   <includes
+         id="org.eclipse.emf.emfstore.common.feature"
+         version="1.4.1.v20150218-0800"/>
+
+   <includes
+         id="org.eclipse.emf.emfstore.server.feature"
+         version="1.4.1.v20150218-0800"/>
+
+   <includes
+         id="org.eclipse.emf.emfstore.example.feature"
+         version="1.4.1.v20150218-0800"/>
+
+   <includes
+         id="org.eclipse.emf.emfstore.license.feature"
+         version="1.4.1.v20150218-0800"/>
+
+   <includes
+         id="org.eclipse.emf.emfstore.ecore.feature"
+         version="1.4.1.v20150218-0800"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.client.source"
+         download-size="402"
+         install-size="1323"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.client.model.edit.source"
+         download-size="23"
+         install-size="77"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.client.ui.source"
+         download-size="347"
+         install-size="931"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.common.model.edit.source"
+         download-size="28"
+         install-size="76"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.server.model.edit.source"
+         download-size="155"
+         install-size="529"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.common.source"
+         download-size="44"
+         install-size="107"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.common.model.source"
+         download-size="100"
+         install-size="357"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.examplemodel.source"
+         download-size="67"
+         install-size="339"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.examplemodel.edit.source"
+         download-size="33"
+         install-size="114"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.migration.source"
+         download-size="11"
+         install-size="18"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.server.source"
+         download-size="218"
+         install-size="648"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.server.model.source"
+         download-size="396"
+         install-size="1737"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.emf.emfstore.ecore.source"
+         download-size="11"
+         install-size="20"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>  
+
+</feature>

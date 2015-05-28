@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.emfstore.client.ui.feature"
+      label="EMFStore Client UI"
+      version="1.4.1.v20150218-0800"
+      provider-name="Eclipse Modeling Project"
+      plugin="org.eclipse.emf.emfstore.client.ui">
+
+   <description url="http://emfstore.org">
+      This feature contains all plugins to provide user interfaces
+for client applications connecting to the EMFStore server.
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.emf.emfstore.server.model"/>
+      <import plugin="org.eclipse.emf.emfstore.client"/>
+      <import plugin="org.eclipse.emf.edit.ui"/>
+      <import plugin="org.eclipse.jface"/>
+      <import plugin="org.eclipse.core.expressions"/>
+      <import plugin="org.eclipse.ui.forms" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.emfstore.common.model"/>
+      <import plugin="org.eclipse.emf.edit"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.server.model.edit"
+         download-size="413"
+         install-size="666"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.client.model.edit"
+         download-size="124"
+         install-size="155"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.client.ui"
+         download-size="819"
+         install-size="1524"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.common.model.edit"
+         download-size="49"
+         install-size="82"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.client.ui.rap"
+         download-size="24"
+         install-size="42"
+         version="1.4.1.v20150218-0800"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.client.ui.rcp"
+         download-size="22"
+         install-size="44"
+         version="1.4.1.v20150218-0800"
+         fragment="true"
+         unpack="false"/>
+
+</feature>

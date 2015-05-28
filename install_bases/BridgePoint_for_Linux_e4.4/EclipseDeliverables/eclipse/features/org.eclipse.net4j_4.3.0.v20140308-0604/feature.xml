@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- contextQualifierLength=14 -->
+<!-- contextQualifierLength=14 -->
+<feature
+      id="org.eclipse.net4j"
+      label="%featureName"
+      version="4.3.0.v20140308-0604"
+      provider-name="%providerName"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://www.eclipse.org/modeling/updates/"/>
+      <discovery label="%updateSiteName" url="http://www.eclipse.org/modeling/updates/"/>
+   </url>
+
+   <includes
+         id="org.eclipse.net4j.util.ui"
+         version="4.3.0.v20140308-0604"/>
+
+   <plugin
+         id="org.eclipse.net4j"
+         download-size="0"
+         install-size="0"
+         version="4.3.0.v20140308-0604"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.net4j.jvm"
+         download-size="0"
+         install-size="0"
+         version="4.1.200.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.net4j.tcp"
+         download-size="0"
+         install-size="0"
+         version="4.1.200.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.net4j.http.common"
+         download-size="0"
+         install-size="0"
+         version="4.0.300.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.net4j.http"
+         download-size="0"
+         install-size="0"
+         version="4.0.300.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.net4j.http.server"
+         download-size="0"
+         install-size="0"
+         version="4.0.300.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.codec"
+         download-size="0"
+         install-size="0"
+         version="1.6.0.v201305230611"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.httpclient"
+         download-size="0"
+         install-size="0"
+         version="3.1.0.v201012070820"
+         unpack="false"/>
+
+</feature>

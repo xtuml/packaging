@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.ecp.view.horizontal.feature"
+      label="EMF Forms Horizontal Model"
+      version="1.4.0.20140916-1322"
+      provider-name="Eclipse Modeling Project"
+      plugin="org.eclipse.emf.ecp.view.horizontal.model"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.horizontal.model"
+         download-size="26"
+         install-size="43"
+         version="1.4.0.20140916-1322"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.horizontal.model.edit"
+         download-size="23"
+         install-size="36"
+         version="1.4.0.20140916-1322"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.horizontal.ui.swt"
+         download-size="13"
+         install-size="21"
+         version="1.4.0.20140916-1322"/>
+
+</feature>

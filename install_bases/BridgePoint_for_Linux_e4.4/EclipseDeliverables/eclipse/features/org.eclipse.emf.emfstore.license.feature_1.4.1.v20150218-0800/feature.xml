@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.emfstore.license.feature"
+      label="EMFStore License"
+      version="1.4.1.v20150218-0800"
+      provider-name="Eclipse Modeling Project">
+
+   <description>
+      Contains the shared license for all EMFStore features.
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+</feature>

@@ -1,0 +1,61 @@
+Manifest-Version: 1.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Built-By: genie.technology.packaging
+Bundle-SymbolicName: org.eclipse.epp.package.modeling;singleton:=true
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/epp/or
+ g.eclipse.epp.packages.git;path="packages/org.eclipse.epp.package.mod
+ eling";commitId=417d3ca941f18a241f60b4dcc7fcbafa46f554ba
+Require-Bundle: org.eclipse.platform,org.eclipse.equinox.app
+Bundle-Version: 4.4.1.20140925-1820
+Build-Jdk: 1.7.0_51
+Bundle-Vendor: Eclipse Packaging Project
+Bundle-Name: EPP Modeling Bundle
+Eclipse-BundleShape: dir
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: eclipse32.png
+SHA1-Digest: SeFX+7Z9UsaOwsNiKncVQvrY8BE=
+
+Name: intro-eclipse.png
+SHA1-Digest: KHEP4mXvQIPxvHC4lKYFqVcOZcw=
+
+Name: about.ini
+SHA1-Digest: C+Ibnd4X5bCWQrPMGBrfNyfKDkk=
+
+Name: about.mappings
+SHA1-Digest: rlUUwUIajPyXRX5Rwzs/A3v6agI=
+
+Name: eclipse48.png
+SHA1-Digest: 9NKKkYyVxwpY8xkfIglPWy0I9PA=
+
+Name: eclipse256.png
+SHA1-Digest: 2iMSyzvz811LVPbah1pUUlaVmAo=
+
+Name: eclipse16.png
+SHA1-Digest: GcSxMviWHMy3Z+GhtS1447jrPpg=
+
+Name: about.html
+SHA1-Digest: /CETf4WmV+BiPhUbrICU0RE3BVM=
+
+Name: eclipse_lg.png
+SHA1-Digest: dLplZrr7Z5kcTEfjJV4ReEkuk5M=
+
+Name: META-INF/maven/org.eclipse.epp/org.eclipse.epp.package.modeling/
+ pom.properties
+SHA1-Digest: mu52mDXWezvfgskWv8Xb1dIn04c=
+
+Name: about.properties
+SHA1-Digest: X6xbcZ8qb4bAA0RW9h7m0ur1SGk=
+
+Name: META-INF/maven/org.eclipse.epp/org.eclipse.epp.package.modeling/
+ pom.xml
+SHA1-Digest: oRTAHC+PKjcy9NOr+V0D8xvaZI8=
+
+Name: plugin.xml
+SHA1-Digest: eLzsMk+opHGb2d2fyXFhjsmyh5Y=
+
+Name: plugin_customization.ini
+SHA1-Digest: 1WVZBKJQkRK+H7su4aqEc3fZYIE=
+

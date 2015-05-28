@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2007, 2010 Anyware Technologies and others. All rights reserved. This program
+  and the accompanying materials are made available under the terms of the
+  Eclipse Public License v1.0 which accompanies this distribution, and is
+  available at http://www.eclipse.org/legal/epl-v10.html
+    
+  Contributors: 
+  	   Anyware Technologies - Initial API and implementation
+-->
+<feature
+      id="org.eclipse.emf.ecoretools.design"
+      label="%featureName"
+      version="2.0.3.201411191338"
+      provider-name="%providerName"
+      image="modeling32.png">
+
+   <description url="http://wiki.eclipse.org/index.php/Ecore_Tools">
+      %description
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      Copyright (c) 2007, 2010 Anyware Technologies and others
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.sirius.runtime" version="1.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.sirius.runtime.acceleo" version="1.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.sirius.runtime.ide.ui" version="1.0.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.emf.ecoretools"
+         download-size="80"
+         install-size="127"
+         version="2.0.3.201411191338"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecoretools.design"
+         download-size="156"
+         install-size="419"
+         version="2.0.3.201411191338"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecoretools.doc"
+         download-size="2088"
+         install-size="2241"
+         version="2.0.3.201411191338"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecoretools.design.properties"
+         download-size="511"
+         install-size="1269"
+         version="2.0.3.201411191338"
+         unpack="false"/>
+
+</feature>

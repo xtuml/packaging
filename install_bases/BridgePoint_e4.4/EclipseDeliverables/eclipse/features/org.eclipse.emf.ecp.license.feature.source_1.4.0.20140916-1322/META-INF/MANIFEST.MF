@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.6.0_45
+Built-By: genie.modeling.ecp
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+
+Name: feature.properties
+SHA1-Digest: gwVxg+i74FTBM02fF6nSSJsGqVE=
+
+Name: META-INF/maven/org.eclipse.emf.ecp/org.eclipse.emf.ecp.license.f
+ eature/pom.xml
+SHA1-Digest: X/4dJyaJiMsAddXgIOA++7htjnU=
+
+Name: META-INF/maven/org.eclipse.emf.ecp/org.eclipse.emf.ecp.license.f
+ eature/pom.properties
+SHA1-Digest: kY8JHhn6Jn5YQng3O+kB8w5mRp8=
+
+Name: feature.xml
+SHA1-Digest: EL35p5xTGnEClyWV9XodlH9wH6w=
+

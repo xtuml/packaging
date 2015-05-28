@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- contextQualifierLength=14 -->
+<!-- contextQualifierLength=14 -->
+<feature
+      id="org.eclipse.emf.cdo.server"
+      label="%featureName"
+      version="4.3.0.v20140520-1823"
+      provider-name="%providerName"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://www.eclipse.org/modeling/updates/"/>
+      <discovery label="%updateSiteName" url="http://www.eclipse.org/modeling/updates/"/>
+   </url>
+
+   <plugin
+         id="org.eclipse.emf.cdo.common"
+         download-size="0"
+         install-size="0"
+         version="4.3.0.v20140309-0644"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.server"
+         download-size="0"
+         install-size="0"
+         version="4.3.0.v20140309-0644"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo"
+         download-size="0"
+         install-size="0"
+         version="4.3.0.v20140520-1823"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.server.net4j"
+         download-size="0"
+         install-size="0"
+         version="4.1.100.v20140308-0604"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.server.ocl"
+         download-size="0"
+         install-size="0"
+         version="4.2.0.v20140309-0644"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.server.product"
+         download-size="0"
+         install-size="0"
+         version="4.1.200.v20140323-1856"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.server.security"
+         download-size="0"
+         install-size="0"
+         version="4.3.0.v20140309-0644"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.security"
+         download-size="0"
+         install-size="0"
+         version="4.3.0.v20140309-0644"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.expressions"
+         download-size="0"
+         install-size="0"
+         version="4.3.0.v20140309-0644"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.server.admin"
+         download-size="0"
+         install-size="0"
+         version="4.2.0.v20140309-0644"
+         unpack="false"/>
+
+</feature>

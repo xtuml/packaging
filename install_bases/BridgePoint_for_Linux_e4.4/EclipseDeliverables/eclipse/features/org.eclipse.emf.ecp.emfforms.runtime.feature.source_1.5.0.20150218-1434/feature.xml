@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.emf.ecp.emfforms.runtime.feature.source" version="1.5.0.20150218-1434" label="EMF Forms Runtime incl. Sources" provider-name="%providerName">
+  <includes id="org.eclipse.emf.ecp.emfforms.runtime.feature" version="1.5.0.20150218-1434"/>
+  <description>
+      %description
+   </description>
+  <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.eclipse.emf.ecp.view.categorization.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.view.custom.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.view.group.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.view.horizontal.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.view.label.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.view.rule.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.view.table.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.view.template.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.view.treemasterdetail.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.view.unset.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.view.validation.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.view.vertical.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.viewmodel.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.view.stack.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.view.compoundcontrol.feature.source" version="1.5.0.20150218-1434"/>
+</feature>

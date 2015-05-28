@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.e4.rcp.source" version="1.3.101.v20150204-1353" label="%featureName" provider-name="%providerName">
+  <includes id="org.eclipse.e4.rcp" version="1.3.101.v20150204-1353"/>
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.e4.core.services.source" version="1.2.1.v20140808-1251" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.e4.ui.workbench.swt.source" version="0.12.100.v20141126-1150" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.e4.core.commands.source" version="0.10.2.v20140424-2344" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.e4.ui.bindings.source" version="0.10.200.v20140424-2042" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.e4.ui.model.workbench.source" version="1.1.0.v20140512-1820" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.e4.ui.services.source" version="1.1.0.v20140328-1925" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.e4.ui.workbench.renderers.swt.source" version="0.12.2.v20150204-1353" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.e4.ui.workbench.source" version="1.2.2.v20141212-1259" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.e4.ui.css.core.source" version="0.10.100.v20140424-2042" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.e4.ui.css.swt.source" version="0.11.101.v20140818-1343" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.apache.batik.css.source" version="1.7.0.v201011041433" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.w3c.css.sac.source" version="1.3.1.v200903091627" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.apache.batik.util.source" version="1.7.0.v201011041433" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.w3c.dom.svg.source" version="1.1.0.v201011041433" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.w3c.dom.smil.source" version="1.0.0.v200806040011" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.w3c.dom.events.source" version="3.0.0.draft20060413_v201105210656" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="javax.inject.source" version="1.0.0.v20091030" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="javax.annotation.source" version="1.2.0.v201401042248" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.e4.core.di.source" version="1.4.0.v20140414-1837" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.e4.core.contexts.source" version="1.3.100.v20140407-1019" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.apache.batik.util.gui.source" version="1.7.0.v200903091627" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.e4.core.di.extensions.source" version="0.12.0.v20140417-2033" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.e4.ui.css.swt.theme.source" version="0.9.300.v20141126-1957" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.e4.ui.di.source" version="1.0.0.v20140328-2112" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.e4.ui.widgets.source" version="1.0.0.v20140514-1823" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.e4.ui.workbench.renderers.swt.cocoa.source" version="0.11.200.v20140417-0906" download-size="0" install-size="0" os="macosx" ws="cocoa" unpack="false"/>
+  <plugin id="org.eclipse.equinox.common.source" version="3.6.200.v20130402-1505" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.ds.source" version="1.4.200.v20131126-2331" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.event.source" version="1.3.100.v20140115-1647" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.core.commands.source" version="3.6.100.v20140528-1422" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.core.contenttype.source" version="3.4.200.v20140207-1251" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.core.databinding.source" version="1.4.2.v20140729-1044" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.core.databinding.beans.source" version="1.2.200.v20140214-0004" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.core.databinding.observable.source" version="1.4.1.v20140210-1835" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.core.databinding.property.source" version="1.4.200.v20140214-0004" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.core.expressions.source" version="3.4.600.v20140128-0851" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.core.jobs.source" version="3.6.1.v20141014-1248" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.core.runtime.source" version="3.10.0.v20140318-2214" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.app.source" version="1.3.200.v20130910-1609" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="com.ibm.icu.source" version="52.1.1.v201501240615" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.preferences.source" version="3.5.200.v20140224-1527" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.registry.source" version="3.5.400.v20140428-1507" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.simpleconfigurator.source" version="1.1.0.v20131217-1203" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.osgi.source" version="3.10.2.v20150203-1939" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.osgi.compatibility.state.source" version="1.0.1.v20140709-1414" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.osgi.services.source" version="3.4.0.v20140312-2051" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.swt.win32.win32.x86.source" version="3.103.2.v20150203-1351" download-size="0" install-size="0" os="win32" ws="win32" arch="x86" unpack="false"/>
+  <plugin id="org.eclipse.swt.win32.win32.x86_64.source" version="3.103.2.v20150203-1351" download-size="0" install-size="0" os="win32" ws="win32" arch="x86_64" unpack="false"/>
+  <plugin id="org.eclipse.swt.gtk.linux.x86.source" version="3.103.2.v20150203-1351" download-size="0" install-size="0" os="linux" ws="gtk" arch="x86" unpack="false"/>
+  <plugin id="org.eclipse.swt.gtk.linux.s390x.source" version="3.103.2.v20150203-1351" download-size="0" install-size="0" os="linux" ws="gtk" arch="s390x" unpack="false"/>
+  <plugin id="org.eclipse.swt.gtk.linux.s390.source" version="3.103.2.v20150203-1351" download-size="0" install-size="0" os="linux" ws="gtk" arch="s390" unpack="false"/>
+  <plugin id="org.eclipse.swt.gtk.solaris.sparc.source" version="3.103.2.v20150203-1351" download-size="0" install-size="0" os="solaris" ws="gtk" arch="sparc" unpack="false"/>
+  <plugin id="org.eclipse.swt.gtk.solaris.x86.source" version="3.103.2.v20150203-1351" download-size="0" install-size="0" os="solaris" ws="gtk" arch="x86" unpack="false"/>
+  <plugin id="org.eclipse.swt.gtk.linux.ppc.source" version="3.103.2.v20150203-1351" download-size="0" install-size="0" os="linux" ws="gtk" arch="ppc" unpack="false"/>
+  <plugin id="org.eclipse.swt.gtk.linux.ppc64.source" version="3.103.2.v20150203-1351" download-size="0" install-size="0" os="linux" ws="gtk" arch="ppc64" unpack="false"/>
+  <plugin id="org.eclipse.swt.gtk.linux.ppc64le.source" version="3.103.2.v20150203-1351" download-size="0" install-size="0" os="linux" ws="gtk" arch="ppc64le" unpack="false"/>
+  <plugin id="org.eclipse.swt.gtk.linux.x86_64.source" version="3.103.2.v20150203-1351" download-size="0" install-size="0" os="linux" ws="gtk" arch="x86_64" unpack="false"/>
+  <plugin id="org.eclipse.swt.cocoa.macosx.source" version="3.103.2.v20150203-1351" download-size="0" install-size="0" os="macosx" ws="cocoa" arch="x86" unpack="false"/>
+  <plugin id="org.eclipse.swt.cocoa.macosx.x86_64.source" version="3.103.2.v20150203-1351" download-size="0" install-size="0" os="macosx" ws="cocoa" arch="x86_64" unpack="false"/>
+  <plugin id="org.eclipse.swt.gtk.aix.ppc.source" version="3.103.2.v20150203-1351" download-size="0" install-size="0" os="aix" ws="gtk" arch="ppc" unpack="false"/>
+  <plugin id="org.eclipse.swt.gtk.aix.ppc64.source" version="3.103.2.v20150203-1351" download-size="0" install-size="0" os="aix" ws="gtk" arch="ppc64" unpack="false"/>
+  <plugin id="org.eclipse.swt.gtk.hpux.ia64.source" version="3.103.2.v20150203-1351" download-size="0" install-size="0" os="hpux" ws="gtk" arch="ia64" unpack="false"/>
+  <plugin id="org.eclipse.equinox.util.source" version="1.0.500.v20130404-1337" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.jface.source" version="3.10.2.v20141021-1035" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.jface.databinding.source" version="1.6.200.v20140528-1422" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.e4.ui.workbench3.source" version="0.12.0.v20140227-2118" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.apache.felix.gogo.command.source" version="0.10.0.v201209301215" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.apache.felix.gogo.runtime.source" version="0.10.0.v201209301036" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.apache.felix.gogo.shell.source" version="0.10.0.v201212101605" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.console.source" version="1.1.0.v20140131-1639" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.e4.ui.workbench.addons.swt.source" version="1.1.2.v20141126-1310" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.equinox.bidi.source" version="0.10.0.v20130327-1442" download-size="0" install-size="0" unpack="false"/>
+</feature>

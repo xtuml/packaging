@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- contextQualifierLength=14 -->
+<!-- contextQualifierLength=14 -->
+<feature
+      id="org.eclipse.emf.cdo"
+      label="%featureName"
+      version="4.3.0.v20140520-1823"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://www.eclipse.org/modeling/updates/"/>
+      <discovery label="%updateSiteName" url="http://www.eclipse.org/modeling/updates/"/>
+   </url>
+
+   <plugin
+         id="org.eclipse.emf.cdo"
+         download-size="0"
+         install-size="0"
+         version="4.3.0.v20140520-1823"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.team"
+         download-size="0"
+         install-size="0"
+         version="4.1.100.v20140129-1702"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.location"
+         download-size="0"
+         install-size="0"
+         version="4.0.300.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.edit"
+         download-size="0"
+         install-size="0"
+         version="4.3.0.v20140308-0841"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.common"
+         download-size="0"
+         install-size="0"
+         version="4.3.0.v20140309-0644"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.common.db"
+         download-size="0"
+         install-size="0"
+         version="3.0.400.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.net4j"
+         download-size="0"
+         install-size="0"
+         version="4.1.200.v20140308-0604"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.workspace"
+         download-size="0"
+         install-size="0"
+         version="4.1.200.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.workspace.efs"
+         download-size="0"
+         install-size="0"
+         version="4.0.200.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.expressions"
+         download-size="0"
+         install-size="0"
+         version="4.3.0.v20140309-0644"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.expressions.edit"
+         download-size="0"
+         install-size="0"
+         version="4.3.0.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.expressions.editor"
+         download-size="0"
+         install-size="0"
+         version="4.3.0.v20140218-1708"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.security"
+         download-size="0"
+         install-size="0"
+         version="4.3.0.v20140309-0644"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.security.edit"
+         download-size="0"
+         install-size="0"
+         version="4.3.0.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.security.editor"
+         download-size="0"
+         install-size="0"
+         version="4.2.100.v20140129-1702"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.security.ui"
+         download-size="0"
+         install-size="0"
+         version="4.3.0.v20140309-0644"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.admin"
+         download-size="0"
+         install-size="0"
+         version="4.1.200.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.ui"
+         download-size="0"
+         install-size="0"
+         version="4.3.0.v20140305-1745"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.ui.shared"
+         download-size="0"
+         install-size="0"
+         version="4.2.0.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.ui.ide"
+         download-size="0"
+         install-size="0"
+         version="4.1.100.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.ui.location"
+         download-size="0"
+         install-size="0"
+         version="4.0.300.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.ui.team"
+         download-size="0"
+         install-size="0"
+         version="4.2.100.v20140408-1115"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.ui.workspace"
+         download-size="0"
+         install-size="0"
+         version="4.0.300.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.ui.admin"
+         download-size="0"
+         install-size="0"
+         version="4.1.200.v20140308-0604"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.efs"
+         download-size="0"
+         install-size="0"
+         version="4.0.200.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.ui.efs"
+         download-size="0"
+         install-size="0"
+         version="4.1.100.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.transfer"
+         download-size="0"
+         install-size="0"
+         version="4.2.100.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.transfer.repository"
+         download-size="0"
+         install-size="0"
+         version="4.2.100.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.transfer.ui"
+         download-size="0"
+         install-size="0"
+         version="4.2.100.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.transfer.workspace"
+         download-size="0"
+         install-size="0"
+         version="4.2.100.v20140129-1702"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.transfer.workspace.ui"
+         download-size="0"
+         install-size="0"
+         version="4.2.100.v20140114-0640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.ecore.retrofit"
+         download-size="0"
+         install-size="0"
+         version="4.2.100.v20140308-0604"
+         fragment="true"
+         unpack="false"/>
+
+</feature>

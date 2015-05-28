@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.emf.ecp.view.table.feature.source" version="1.5.0.20150218-1434" plugin="org.eclipse.emf.ecp.view.table.model" label="EMF Forms Table Model incl. Sources" provider-name="Eclipse Modeling Project">
+  <includes id="org.eclipse.emf.ecp.view.table.feature" version="1.5.0.20150218-1434"/>
+  <description>
+      %description
+   </description>
+  <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.emf.ecp.view.table.model.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.view.table.model.edit.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.view.table.ui.swt.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.view.table.editor.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.view.table.columnservice.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+</feature>

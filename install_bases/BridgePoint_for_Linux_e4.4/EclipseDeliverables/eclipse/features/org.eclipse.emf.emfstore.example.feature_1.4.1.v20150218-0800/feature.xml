@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.emfstore.example.feature"
+      label="EMFStore Code Examples"
+      version="1.4.1.v20150218-0800"
+      provider-name="Eclipse Modeling Project"
+      plugin="org.eclipse.emf.emfstore.example.installer">
+
+   <description url="http://emfstore.org ">
+      EMFStore Code Examples
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.examplemodel"
+         download-size="75"
+         install-size="183"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.examplemodel.edit"
+         download-size="51"
+         install-size="102"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.example.installer"
+         download-size="59"
+         install-size="117"
+         version="1.4.1.v20150218-0800"
+         unpack="false"/>
+
+</feature>

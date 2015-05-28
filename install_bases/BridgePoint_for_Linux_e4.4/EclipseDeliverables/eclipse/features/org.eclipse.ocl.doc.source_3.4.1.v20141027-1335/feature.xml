@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ocl.doc.source"
+      label="%featureName"
+      version="3.4.1.v20141027-1335"
+      provider-name="%providerName">
+
+   <description url="http://www.eclipse.org/modeling/mdt/ocl">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://www.eclipse.org/modeling/updates"/>
+      <discovery label="%updateSiteName" url="http://www.eclipse.org/modeling/updates"/>
+   </url>
+
+   <plugin
+         id="org.eclipse.ocl.doc.source"
+         download-size="0"
+         install-size="0"
+         version="3.4.1.v20141027-1335"
+         unpack="false"/>
+
+</feature>

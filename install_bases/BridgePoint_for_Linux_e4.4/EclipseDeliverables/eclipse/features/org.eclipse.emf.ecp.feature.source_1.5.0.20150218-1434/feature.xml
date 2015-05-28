@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.emf.ecp.feature.source" version="1.5.0.20150218-1434" plugin="org.eclipse.emf.ecp.core" label="ECP Core incl. Sources" provider-name="Eclipse Modeling Project">
+  <includes id="org.eclipse.emf.ecp.feature" version="1.5.0.20150218-1434"/>
+  <description>
+      The core platform containing the model workspace, the navigator, the editor and the repository browser.
+   </description>
+  <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.emf.ecp.core.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.ui.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.explorereditorbridge.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.core.emffilter.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.validation.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.ui.rcp.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+</feature>

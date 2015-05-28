@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.emfstore.ecore.feature"
+      label="EMFStore Ecore"
+      version="1.4.1.v20150218-0800"
+      provider-name="Eclipse Modeling Project"
+      plugin="org.eclipse.emf.emfstore.ecore">
+
+   <description url="http://emfstore.org">
+      Contains ecore plugin of EMFStore that is used by other EMFStore features.
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.ecore"
+         download-size="17"
+         install-size="25"
+         version="1.4.1.v20150218-0800"/>
+
+</feature>

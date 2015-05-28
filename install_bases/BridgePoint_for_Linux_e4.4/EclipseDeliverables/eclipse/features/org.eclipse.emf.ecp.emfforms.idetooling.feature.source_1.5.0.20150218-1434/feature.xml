@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.emf.ecp.emfforms.idetooling.feature.source" version="1.5.0.20150218-1434" label="EMF Forms IDE Tooling incl. Sources" provider-name="Eclipse Modeling Project">
+  <includes id="org.eclipse.emf.ecp.emfforms.idetooling.feature" version="1.5.0.20150218-1434"/>
+  <description>
+      %description
+   </description>
+  <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.emf.ecp.ide.util.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.view.model.preview.common.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.view.model.preview.e3.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.view.model.project.installer.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.ide.editor.viewmodel.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.ide.editor.view.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.ide.editor.view.control.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.ide.view.service.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.makeithappen.wizards.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.view.template.tooling.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <includes id="org.eclipse.emf.ecp.view.model.editor.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.view.model.controls.feature.source" version="1.5.0.20150218-1434"/>
+</feature>
