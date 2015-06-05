@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.ecp.view.model.controls.feature"
+      label="EMF Forms View Model Controls"
+      version="1.5.0.20150218-1434"
+      provider-name="%providerName"
+      plugin="org.eclipse.emf.ecp.ui.view.editor.controls"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.emf.ecp.ui.view.editor.controls"
+         download-size="195"
+         install-size="441"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+</feature>

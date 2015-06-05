@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.ecp.view.rule.feature"
+      label="EMF Forms Rule Model"
+      version="1.4.0.20140916-1322"
+      provider-name="Eclipse Modeling Project"
+      plugin="org.eclipse.emf.ecp.view.rule"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.rule"
+         download-size="33"
+         install-size="66"
+         version="1.4.0.20140916-1322"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.rule.model"
+         download-size="40"
+         install-size="79"
+         version="1.4.0.20140916-1322"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.rule.model.edit"
+         download-size="48"
+         install-size="79"
+         version="1.4.0.20140916-1322"
+         unpack="false"/>
+
+</feature>

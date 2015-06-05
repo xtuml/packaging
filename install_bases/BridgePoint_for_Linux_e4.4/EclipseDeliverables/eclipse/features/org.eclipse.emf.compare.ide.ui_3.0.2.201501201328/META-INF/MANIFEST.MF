@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.7.0_51
+Built-By: genie.modeling.emfcompare
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+
+Name: epl-v10.html
+SHA1-Digest: X2o3XdUsmEVEXLId47fxtZKgoAo=
+
+Name: modeling32.png
+SHA1-Digest: ADlLWFV0eQ74YnLvHnPFkYLeLrs=
+
+Name: license.html
+SHA1-Digest: Z5WKoRSIDCgQNswUpOU/oSPE2a0=
+
+Name: copyright.txt
+SHA1-Digest: KHWgjWQzsS1g2oWdu7bLsbErRfc=
+
+Name: feature.properties
+SHA1-Digest: eA5qxurAfsa3PvEiMz6pKiIXhNA=
+
+Name: about.html
+SHA1-Digest: X2o3XdUsmEVEXLId47fxtZKgoAo=
+
+Name: feature.xml
+SHA1-Digest: M0oJrZSH64A5iEktKMd5YDxxo5c=
+

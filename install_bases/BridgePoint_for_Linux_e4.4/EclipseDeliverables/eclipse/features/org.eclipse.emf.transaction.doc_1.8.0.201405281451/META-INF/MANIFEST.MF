@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.6.0_45
+Built-By: genie.modeling.emf.transaction
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+
+Name: epl-v10.html
+SHA1-Digest: hNPRR3joO5UV8+u/L0qjKV/Y2EE=
+
+Name: META-INF/maven/org.eclipse.emf.transaction.features/org.eclipse.
+ emf.transaction.doc/pom.properties
+SHA1-Digest: Zmy4cZarurJeaMWtp2G/EfmuCjI=
+
+Name: modeling32.png
+SHA1-Digest: ADlLWFV0eQ74YnLvHnPFkYLeLrs=
+
+Name: META-INF/maven/org.eclipse.emf.transaction.features/org.eclipse.
+ emf.transaction.doc/pom.xml
+SHA1-Digest: GwkLIS0879VeP32fLqt5g1nR+iM=
+
+Name: license.html
+SHA1-Digest: Z5WKoRSIDCgQNswUpOU/oSPE2a0=
+
+Name: feature.properties
+SHA1-Digest: YU275CngVk3u/KkmDqI77dq5FYY=
+
+Name: feature.xml
+SHA1-Digest: QIQXZMJ9svW5tX1zkjnQBOvMK9U=
+

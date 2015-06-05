@@ -1,0 +1,49 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: 0fWZ7NIUkAueVX6y8Sq6pNbWLFs=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: yfpKY2gnra2UBJnJFwKDh0WkQP8=
+
+Name: eclipse32.png
+SHA1-Digest: qWMfSffgWalcx/SRdBjK0ZKcsEs=
+
+Name: intro-eclipse.png
+SHA1-Digest: zOOHpU3akBYKhWA/Km7SQL0zvCE=
+
+Name: about.ini
+SHA1-Digest: 9IQMmgbnfpYDil5/ZVy9gW7D1DI=
+
+Name: about.mappings
+SHA1-Digest: OxVtqwfqmAdWYgkg/IXw48gzktQ=
+
+Name: eclipse48.png
+SHA1-Digest: pCTXeLWFc4x4JfWnE7CxLjTAfec=
+
+Name: eclipse256.png
+SHA1-Digest: aN1x+6hPUk1LaXfEJGcVq6E17+Y=
+
+Name: eclipse16.png
+SHA1-Digest: xTdY4ZAKvtKpBQTMHjMreCbW87o=
+
+Name: about.html
+SHA1-Digest: eBi7h3hc47bc2B/Fckq2moarT5w=
+
+Name: eclipse_lg.png
+SHA1-Digest: Ha6lBmxcKgFcWZ26cUXXq+y7Ho0=
+
+Name: META-INF/maven/org.eclipse.epp/org.eclipse.epp.package.modeling/
+ pom.properties
+SHA1-Digest: 51HNh+gIapMil+J5Ez3RGISLWmQ=
+
+Name: about.properties
+SHA1-Digest: FxgzY/5yECdFjbUSxocXWsKya1g=
+
+Name: META-INF/maven/org.eclipse.epp/org.eclipse.epp.package.modeling/
+ pom.xml
+SHA1-Digest: CZeGxwgKc7w3HyaOzaBtp7lYLBQ=
+
+Name: plugin.xml
+SHA1-Digest: BZmwWbVGTHqesV05ClEYV/+ZCWA=
+
+Name: plugin_customization.ini
+SHA1-Digest: dEksecDPbeB0hFCsktYtU8rhyMA=
+

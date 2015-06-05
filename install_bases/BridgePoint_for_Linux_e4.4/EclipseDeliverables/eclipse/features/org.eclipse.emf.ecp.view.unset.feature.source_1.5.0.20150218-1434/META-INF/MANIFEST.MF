@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.6.0_45
+Built-By: genie.ecp
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+
+Name: epl-v10.html
+SHA1-Digest: jYDaDJLBJpthCwPMgGFVYASJjIU=
+
+Name: eclipse_update_120.jpg
+SHA1-Digest: xstAqMgs/a5AsQXQZSdDQ79veOA=
+
+Name: META-INF/maven/org.eclipse.emf.ecp/org.eclipse.emf.ecp.view.unse
+ t.feature/pom.properties
+SHA1-Digest: fMAcXYc3OYZ1WVMKVekzq9Rtk24=
+
+Name: META-INF/maven/org.eclipse.emf.ecp/org.eclipse.emf.ecp.view.unse
+ t.feature/pom.xml
+SHA1-Digest: qO8glStj0mico7EdC9x2CTbVg/8=
+
+Name: rootfiles/about.html
+SHA1-Digest: mLkmRLtG3amkcY0I7KSYZX6qKhs=
+
+Name: rootfiles/notice.html
+SHA1-Digest: QZ2iVd1Dt41DDbHHeQ6hQJ8+zAM=
+
+Name: license.html
+SHA1-Digest: Z5WKoRSIDCgQNswUpOU/oSPE2a0=
+
+Name: copyright.txt
+SHA1-Digest: JPIVQPZTjrK5qtHV9qzf+92n/Fo=
+
+Name: rootfiles/epl-v10.html
+SHA1-Digest: UqIZyOuEAJBSB+//cFCSgl9V4fA=
+
+Name: feature.properties
+SHA1-Digest: qNm37o+m3RAv73yoQ/kVULPy2OQ=
+
+Name: about.html
+SHA1-Digest: mLkmRLtG3amkcY0I7KSYZX6qKhs=
+
+Name: feature.xml
+SHA1-Digest: hUZMSxoJ6xCZ0GFp/VyZIPT7A3E=
+

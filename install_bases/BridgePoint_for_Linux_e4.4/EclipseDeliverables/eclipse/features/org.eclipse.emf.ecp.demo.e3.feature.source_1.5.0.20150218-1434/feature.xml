@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.emf.ecp.demo.e3.feature.source" version="1.5.0.20150218-1434" plugin="org.eclipse.emf.ecp.application.e3" label="ECP e3 Demo Application incl. Sources" provider-name="%providerName">
+  <includes id="org.eclipse.emf.ecp.demo.e3.feature" version="1.5.0.20150218-1434"/>
+  <description>
+      %description
+   </description>
+  <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.emf.ecp.application.e3.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <includes id="org.eclipse.emf.ecp.e3.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.emfforms.runtime.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.emfstore.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.workspace.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.view.model.editor.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.view.template.helper.feature.source" version="1.5.0.20150218-1434"/>
+  <includes id="org.eclipse.emf.ecp.view.model.controls.feature.source" version="1.5.0.20150218-1434"/>
+</feature>

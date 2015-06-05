@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.emf.ecp.workspace.feature.source" version="1.4.0.20140916-1322" plugin="org.eclipse.emf.ecp.workspace.core" label="ECP File Integration (Experimental) Developer Resources" provider-name="Eclipse Modeling Project">
+  <includes id="org.eclipse.emf.ecp.workspace.feature" version="1.4.0.20140916-1322"/>
+  <description>
+      Integration for file and Eclipse workspace persistence.
+   </description>
+  <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.emf.ecp.workspace.core.source" version="1.4.0.20140916-1322" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.workspace.ui.source" version="1.4.0.20140916-1322" download-size="0" install-size="0" unpack="false"/>
+</feature>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.emf.ecp.view.label.feature.source" version="1.5.0.20150218-1434" plugin="org.eclipse.emf.ecp.view.label.model" label="EMF Forms Label Model incl. Sources" provider-name="Eclipse Modeling Project">
+  <includes id="org.eclipse.emf.ecp.view.label.feature" version="1.5.0.20150218-1434"/>
+  <description>
+      %description
+   </description>
+  <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.emf.ecp.view.label.model.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.view.label.model.edit.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.view.label.ui.swt.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+</feature>

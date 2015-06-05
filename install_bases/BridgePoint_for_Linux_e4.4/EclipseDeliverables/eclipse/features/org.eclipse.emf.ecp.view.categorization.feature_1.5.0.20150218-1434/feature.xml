@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.ecp.view.categorization.feature"
+      label="EMF Forms Categorization Model"
+      version="1.5.0.20150218-1434"
+      provider-name="%providerName"
+      plugin="org.eclipse.emf.ecp.view.categorization.model"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.categorization.model"
+         download-size="48"
+         install-size="106"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.categorization.model.edit"
+         download-size="43"
+         install-size="75"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.categorization.swt"
+         download-size="43"
+         install-size="84"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+</feature>

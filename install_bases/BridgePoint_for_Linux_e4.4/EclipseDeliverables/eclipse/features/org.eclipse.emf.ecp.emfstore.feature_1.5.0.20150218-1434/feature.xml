@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.ecp.emfstore.feature"
+      label="ECP EMFStore Integration"
+      version="1.5.0.20150218-1434"
+      provider-name="%providerName"
+      plugin="org.eclipse.emf.ecp.emfstore.core"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.emf.ecp.emfstore.core"
+         download-size="45"
+         install-size="90"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.emfstore.ui"
+         download-size="106"
+         install-size="205"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.emfstore.ui.search"
+         download-size="17"
+         install-size="27"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.emfstore.ui.e3"
+         download-size="69"
+         install-size="172"
+         version="1.5.0.20150218-1434"/>
+
+</feature>

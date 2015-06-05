@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.6.0_45
+Built-By: genie.modeling.gmf-runtime
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+
+Name: epl-v10.html
+SHA1-Digest: pTOyybcpEe+Y8lkSVUtarMleXqE=
+
+Name: META-INF/maven/org.eclipse.gmf.runtime/org.eclipse.gmf.source/po
+ m.xml
+SHA1-Digest: gSY9fJOW23PihPfBDDxHAReFUi0=
+
+Name: modeling32.png
+SHA1-Digest: ADlLWFV0eQ74YnLvHnPFkYLeLrs=
+
+Name: META-INF/maven/org.eclipse.gmf.runtime/org.eclipse.gmf.source/po
+ m.properties
+SHA1-Digest: 0gj9v//G3uMNTnomPgaVH5G7LYU=
+
+Name: license.html
+SHA1-Digest: Z5WKoRSIDCgQNswUpOU/oSPE2a0=
+
+Name: feature.properties
+SHA1-Digest: 6LQZQBSdNlm8Dt6eErAf+Te6Bsc=
+
+Name: feature.xml
+SHA1-Digest: KEbQp1+aVtmENJ2A6ucqOJJfUx4=
+

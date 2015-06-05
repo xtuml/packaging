@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.ecp.viewmodel.feature"
+      label="EMF Forms Core Model"
+      version="1.5.0.20150218-1434"
+      provider-name="Eclipse Modeling Project"
+      plugin="org.eclipse.emf.ecp.view.model"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.model"
+         download-size="93"
+         install-size="223"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.model.edit"
+         download-size="39"
+         install-size="74"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.ui.view"
+         download-size="31"
+         install-size="55"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.ui.view.swt"
+         download-size="58"
+         install-size="117"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.model.provider.generator"
+         download-size="11"
+         install-size="18"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.model.provider.xmi"
+         download-size="26"
+         install-size="43"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.context"
+         download-size="29"
+         install-size="58"
+         version="1.5.0.20150218-1434"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.core.swt"
+         download-size="81"
+         install-size="186"
+         version="1.5.0.20150218-1434"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.edit"
+         download-size="31"
+         install-size="62"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.edit.swt"
+         download-size="209"
+         install-size="445"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.context.locale"
+         download-size="10"
+         install-size="13"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.swt.layout"
+         download-size="11"
+         install-size="16"
+         version="1.5.0.20150218-1434"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.model.common"
+         download-size="35"
+         install-size="61"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.util.swt"
+         download-size="11"
+         install-size="14"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.control.multireference"
+         download-size="28"
+         install-size="52"
+         version="1.5.0.20150218-1434"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.common"
+         download-size="18"
+         install-size="32"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.common.ui"
+         download-size="49"
+         install-size="96"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+</feature>

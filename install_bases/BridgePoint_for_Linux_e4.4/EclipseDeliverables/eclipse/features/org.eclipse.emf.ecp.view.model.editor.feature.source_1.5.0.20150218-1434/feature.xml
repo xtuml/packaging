@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.emf.ecp.view.model.editor.feature.source" version="1.5.0.20150218-1434" plugin="org.eclipse.emf.ecp.view.model.editor" label="EMF Forms View Model Wizard incl. Sources" provider-name="%providerName">
+  <includes id="org.eclipse.emf.ecp.view.model.editor.feature" version="1.5.0.20150218-1434"/>
+  <description>
+      %description
+   </description>
+  <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.emf.ecp.view.model.editor.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.view.migrator.source" version="1.5.0.20150218-1434" download-size="0" install-size="0" unpack="false"/>
+</feature>

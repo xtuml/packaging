@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.ecp.license.feature"
+      label="EMF Client Platform License"
+      version="1.5.0.20150218-1434"
+      provider-name="Eclipse Modeling Project"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      Contains the shared license for all ECP features.
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+</feature>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Copyright (c) 2004 - 2011 Eike Stepper (Berlin, Germany) and others.
+	All rights reserved. This program and the accompanying materials
+	are made available under the terms of the Eclipse Public License v1.0
+	which accompanies this distribution, and is available at
+	http://www.eclipse.org/legal/epl-v10.html
+
+	Contributors:
+	  Eike Stepper - initial API and implementation
+-->
+<feature
+      id="org.eclipse.emf.ecp.cdo.feature"
+      label="ECP CDO Integration (Experimental)"
+      version="1.5.0.20150218-1434"
+      provider-name="Eclipse Modeling Project"
+      plugin="org.eclipse.emf.ecp.cdo.core"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      Integration of the CDO model repository.
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.net4j.tcp"/>
+      <import plugin="org.eclipse.net4j.ui"/>
+      <import plugin="org.h2"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.emf.ecp.cdo.core"
+         download-size="43"
+         install-size="85"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.cdo.ui"
+         download-size="60"
+         install-size="118"
+         version="1.5.0.20150218-1434"
+         unpack="false"/>
+
+</feature>

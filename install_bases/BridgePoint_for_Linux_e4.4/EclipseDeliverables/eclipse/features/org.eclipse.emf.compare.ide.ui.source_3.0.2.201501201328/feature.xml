@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.emf.compare.ide.ui.source" version="3.0.2.201501201328" plugin="org.eclipse.emf.compare.ide.ui" label="%featureName" provider-name="%providerName">
+  <includes id="org.eclipse.emf.compare.ide.ui" version="3.0.2.201501201328"/>
+  <description>
+      %description
+   </description>
+  <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.emf.compare.edit.source" version="4.0.0.201501201328" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.compare.ide.source" version="3.1.2.201501201328" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.compare.ide.ui.source" version="4.0.2.201501201328" download-size="0" install-size="0" unpack="false"/>
+</feature>
