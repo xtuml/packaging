@@ -566,6 +566,7 @@ org.eclipse.ocl.uml,5.0.0.v20140610-0641,plugins/org.eclipse.ocl.uml_5.0.0.v2014
 org.eclipse.ocl.uml.edit,5.0.0.v20140520-1211,plugins/org.eclipse.ocl.uml.edit_5.0.0.v20140520-1211.jar,4,false
 org.eclipse.ocl.uml.ui,2.0.0.v20140520-1401,plugins/org.eclipse.ocl.uml.ui_2.0.0.v20140520-1401.jar,4,false
 org.eclipse.osgi,3.10.1.v20140909-1633,plugins/org.eclipse.osgi_3.10.1.v20140909-1633.jar,-1,true
+org.eclipse.osgi.compatibility.plugins,1.0.0.v20131023-1243,plugins/org.eclipse.osgi.compatibility.plugins_1.0.0.v20131023-1243.jar,4,false
 org.eclipse.osgi.compatibility.state,1.0.1.v20140709-1414,plugins/org.eclipse.osgi.compatibility.state_1.0.1.v20140709-1414.jar,4,false
 org.eclipse.osgi.services,3.4.0.v20140312-2051,plugins/org.eclipse.osgi.services_3.4.0.v20140312-2051.jar,4,false
 org.eclipse.osgi.util,3.3.0.v20131023-1243,plugins/org.eclipse.osgi.util_3.3.0.v20131023-1243.jar,4,false
