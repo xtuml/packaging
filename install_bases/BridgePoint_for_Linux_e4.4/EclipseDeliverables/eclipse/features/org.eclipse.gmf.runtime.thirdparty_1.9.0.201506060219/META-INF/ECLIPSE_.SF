@@ -1,0 +1,29 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: RJ+dtgXIlmssaY2EdPTOj1jsY9/Rn
+ YntQVYrCK4wId4=
+SHA-256-Digest-Manifest: pCHbMESCh93cnrar9hZrqJtOvJ7wWNsB97jDmPZAniI=
+Created-By: 1.8.0_40 (Oracle Corporation)
+
+Name: epl-v10.html
+SHA-256-Digest: ivPTM3phc3zNk5zAa0eKwnKMIkhfBeiYvWu+PXfq0DI=
+
+Name: feature.xml
+SHA-256-Digest: AdIjWxK+fOT4Tb/wLz3smLnSfb+xmUA9T8/PkXE+kYA=
+
+Name: feature.properties
+SHA-256-Digest: pwwL3rgMfVI56LuR76UWtYIvfK+8OoSXjbywvS+C+5s=
+
+Name: license.html
+SHA-256-Digest: gb5ZzrbOyFArzDLUIG4huZV/GHHBYb0EtixuMKXnhqs=
+
+Name: META-INF/maven/org.eclipse.gmf.runtime.thirdparty/org.eclipse.gm
+ f.runtime.thirdparty/pom.properties
+SHA-256-Digest: Ge1WMwpfWIWfjCDl4mBOUg7HQXPPJpnt/EKsWZtxov0=
+
+Name: modeling32.png
+SHA-256-Digest: CgS/5RX+HpcveJj25BP7XwIrPI3o7AtCMO2apmBLMZ0=
+
+Name: META-INF/maven/org.eclipse.gmf.runtime.thirdparty/org.eclipse.gm
+ f.runtime.thirdparty/pom.xml
+SHA-256-Digest: EVfcuvlne35A+tTaVAXZpXN9+WbrE0nLclFe1ZEpxaQ=
+

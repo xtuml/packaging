@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.ecp.view.edapt.feature"
+      label="EMF Forms IDE Tooling Edapt View Model Migration Feature"
+      version="1.7.0.20150914-1619"
+      provider-name="Eclipse Modeling Project"
+      plugin="org.eclipse.emf.ecp.view.edapt">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.emf.edapt.runtime.feature"
+         version="1.1.1.201506240709"/>
+
+   <includes
+         id="org.eclipse.emf.edapt.runtime.feature.source"
+         version="1.1.1.201506240709"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.edapt"
+         download-size="40"
+         install-size="78"
+         version="1.7.0.20150914-1619"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.table.edapt"
+         download-size="11"
+         install-size="15"
+         version="1.7.0.20150914-1619"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.model.edapt"
+         download-size="11"
+         install-size="15"
+         version="1.7.0.20150914-1619"
+         unpack="false"/>
+
+</feature>

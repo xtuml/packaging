@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.ecp.view.vertical.feature"
+      label="EMF Forms Vertical Model"
+      version="1.7.0.20150914-1619"
+      provider-name="Eclipse Modeling Project"
+      plugin="org.eclipse.emf.ecp.view.vertical.model"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.vertical.model"
+         download-size="28"
+         install-size="45"
+         version="1.7.0.20150914-1619"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.vertical.model.edit"
+         download-size="23"
+         install-size="36"
+         version="1.7.0.20150914-1619"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.vertical.ui.swt"
+         download-size="12"
+         install-size="17"
+         version="1.7.0.20150914-1619"/>
+
+</feature>
