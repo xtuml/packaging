@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <extension point="org.eclipse.emf.ecore.uri_mapping">
+        <mapping
+            source="pathmap://UMLRTRTSLIB/"
+            target="platform:/plugin/org.eclipse.papyrusrt.rts/libraries/"/>
+    </extension>
+
+    <extension point="org.eclipse.papyrus.uml.extensionpoints.UMLLibrary">
+        <library
+            description="UML-RT Runtime Services"
+            iconpath="icons/UMLRTRTS.png"
+            name="UML-RT Runtime Services"
+            path="pathmap://UMLRTRTSLIB/UMLRT-RTS.uml"
+            provider="Zeligsoft (2009) Limited"/>
+    </extension>
+</plugin>

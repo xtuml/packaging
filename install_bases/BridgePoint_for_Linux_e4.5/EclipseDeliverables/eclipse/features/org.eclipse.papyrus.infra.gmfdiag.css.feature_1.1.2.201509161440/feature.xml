@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="org.eclipse.papyrus.infra.gmfdiag.css.feature" label="Papyrus CSS Feature" provider-name="Eclipse Modeling Project" version="1.1.2.201509161440">
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      Copyright (c) 2012 CEA LIST
+All rights reserved.   This program and the accompanying materials
+are made available under the terms of the Eclipse Public License
+v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin download-size="260" id="org.eclipse.papyrus.infra.gmfdiag.css" install-size="567" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="59" id="org.eclipse.papyrus.infra.gmfdiag.css.configuration" install-size="128" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="124" id="org.eclipse.papyrus.infra.gmfdiag.css.properties" install-size="262" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="334" id="org.eclipse.papyrus.infra.gmfdiag.css3.xtext" install-size="919" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="179" id="org.eclipse.papyrus.infra.gmfdiag.css3.xtext.ui" install-size="698" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="11" id="org.eclipse.papyrus.infra.gmfdiag.css.theme" install-size="16" version="1.1.2.201509161440"/>
+
+   <plugin download-size="40" id="org.eclipse.papyrus.infra.gmfdiag.css.model" install-size="77" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="17" id="org.eclipse.papyrus.infra.gmfdiag.css.palette" install-size="26" unpack="false" version="1.1.2.201509161440"/>
+
+</feature>

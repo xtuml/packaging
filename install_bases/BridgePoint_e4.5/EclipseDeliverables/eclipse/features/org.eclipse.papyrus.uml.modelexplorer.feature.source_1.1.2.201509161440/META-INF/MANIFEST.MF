@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: genie.papyrus
+Created-By: Apache Maven
+Build-Jdk: 1.7.0_80
+
+Name: META-INF/maven/org.eclipse.papyrus/org.eclipse.papyrus.uml.model
+ explorer.feature/pom.xml
+SHA-256-Digest: AOfj033N+WdTxuZTlKRx361olxIxSn03d8Q9BiXBe4s=
+
+Name: feature.xml
+SHA-256-Digest: JS4pKVrhrEsZytjESfIfWZ0/yjlHVwOKouS+a+6QrNo=
+
+Name: feature.properties
+SHA-256-Digest: xGEs0M9Hp9Qp0czCHqt7kcNRHeV9c4nj1EAHdfxQkXY=
+
+Name: META-INF/maven/org.eclipse.papyrus/org.eclipse.papyrus.uml.model
+ explorer.feature/pom.properties
+SHA-256-Digest: GmuXNnGhNtuuGPMlJxSEfK1cr0PdG5Y++o0Rr37h9os=
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.papyrus.uml.decoratormodel.feature.source" version="1.1.2.201509161440" label="Papyrus Decorator Models Developer Resources" provider-name="Eclipse Modeling Project">
+  <includes id="org.eclipse.papyrus.uml.decoratormodel.feature" version="1.1.2.201509161440"/>
+  <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      Copyright (c) 2014 CEA LIST, Christian W. Damus, and others
+All rights reserved.   This program and the accompanying materials
+are made available under the terms of the Eclipse Public License v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.papyrus.uml.decoratormodel.source" version="1.1.2.201509161440" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.papyrus.uml.decoratormodel.controlmode.source" version="1.1.2.201509161440" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.papyrus.uml.decoratormodel.ui.source" version="1.1.2.201509161440" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.papyrus.uml.decoratormodel.properties.source" version="1.1.2.201509161440" download-size="0" install-size="0" unpack="false"/>
+</feature>

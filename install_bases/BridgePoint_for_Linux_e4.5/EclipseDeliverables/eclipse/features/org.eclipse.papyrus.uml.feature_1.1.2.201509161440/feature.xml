@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="org.eclipse.papyrus.uml.feature" label="%featureName" provider-name="%providerName" version="1.1.2.201509161440">
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      Copyright (c) 2012, 2015 CEA LIST, Christian W. Damus, and others.
+All rights reserved.   This program and the accompanying materials
+are made available under the terms of the Eclipse Public License
+v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin download-size="27" id="org.eclipse.papyrus.uml.commands" install-size="50" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="43" id="org.eclipse.papyrus.uml.controlmode.profile" install-size="83" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="53" id="org.eclipse.papyrus.uml.extensionpoints" install-size="106" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="1547" id="org.eclipse.papyrus.uml.icons" install-size="3832" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="35" id="org.eclipse.papyrus.uml.import" install-size="67" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="13" id="org.eclipse.papyrus.uml.perspective" install-size="18" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="201" id="org.eclipse.papyrus.uml.profile" install-size="391" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="160" id="org.eclipse.papyrus.uml.profile.drafter" install-size="338" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="12" id="org.eclipse.papyrus.uml.resourceloading.profile" install-size="17" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="391" id="org.eclipse.papyrus.uml.service.types" install-size="1210" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="17" id="org.eclipse.papyrus.uml.templaterepository" install-size="28" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="28" id="org.eclipse.papyrus.uml.documentation.profile" install-size="47" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="24" id="org.eclipse.papyrus.uml.appearance" install-size="42" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="15" id="org.eclipse.papyrus.uml.oclconstraintevaluation" install-size="23" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="16" id="org.eclipse.papyrus.uml.navigation" install-size="25" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="27" id="org.eclipse.papyrus.uml.service.validation" install-size="48" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="14" id="org.eclipse.papyrus.uml.services.decoration" install-size="20" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="202" id="org.eclipse.papyrus.uml.modelrepair" install-size="442" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="31" id="org.eclipse.papyrus.uml.filters" install-size="55" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="20" id="org.eclipse.papyrus.uml.filters.edit" install-size="34" unpack="false" version="1.1.2.201509161440"/>
+
+</feature>

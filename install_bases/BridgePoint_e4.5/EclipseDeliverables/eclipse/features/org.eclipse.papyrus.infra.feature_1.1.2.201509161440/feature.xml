@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="org.eclipse.papyrus.infra.feature" label="Papyrus infra" provider-name="Eclipse Modeling Project" version="1.1.2.201509161440">
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      Copyright (c) 2012, 2015 CEA LIST, Christian W. Damus, and others.
+All rights reserved.   This program and the accompanying materials
+are made available under the terms of the Eclipse Public License
+v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin download-size="217" id="org.eclipse.papyrus.infra.extendedtypes" install-size="549" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="83" id="org.eclipse.papyrus.infra.extendedtypes.edit" install-size="166" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="107" id="org.eclipse.papyrus.infra.extendedtypes.emf" install-size="236" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="109" id="org.eclipse.papyrus.infra.onefile" install-size="233" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="48" id="org.eclipse.papyrus.infra.ui.resources" install-size="94" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="113" id="org.eclipse.papyrus.infra.tools" install-size="227" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="83" id="org.eclipse.papyrus.infra.constraints" install-size="171" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="42" id="org.eclipse.papyrus.infra.constraints.edit" install-size="79" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="137" id="org.eclipse.papyrus.infra.constraints.editor" install-size="286" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="132" id="org.eclipse.papyrus.infra.hyperlink" install-size="278" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="27" id="org.eclipse.papyrus.infra.doc" install-size="31" version="1.1.2.201509161440"/>
+
+   <plugin download-size="36" id="org.eclipse.papyrus.infra.psf" install-size="65" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="56" id="org.eclipse.papyrus.infra.newchild" install-size="120" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="30" id="org.eclipse.papyrus.infra.newchild.edit" install-size="50" unpack="false" version="1.1.2.201509161440"/>
+	
+	<plugin download-size="106" id="org.eclipse.papyrus.infra.sync" install-size="236" version="1.1.2.201509161440"/>
+
+   <plugin download-size="142" id="org.eclipse.papyrus.infra.elementtypesconfigurations" install-size="365" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="49" id="org.eclipse.papyrus.infra.elementtypesconfigurations.edit" install-size="96" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="181" id="org.eclipse.papyrus.infra.elementtypesconfigurations.emf" install-size="386" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="88" id="org.eclipse.papyrus.infra.elementtypesconfigurations.invarianttypes" install-size="183" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="45" id="org.eclipse.papyrus.infra.filters" install-size="94" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="23" id="org.eclipse.papyrus.infra.filters.edit" install-size="43" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="19" id="org.eclipse.papyrus.infra.ui" install-size="36" unpack="false" version="1.1.2.201509161440"/>
+
+</feature>

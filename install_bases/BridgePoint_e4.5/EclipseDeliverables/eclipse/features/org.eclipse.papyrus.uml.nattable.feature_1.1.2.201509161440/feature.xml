@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="org.eclipse.papyrus.uml.nattable.feature" label="Papyrus UML Table - New Version" provider-name="Eclipse Modeling Project" version="1.1.2.201509161440">
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      Copyright (c) 2012 CEA LIST
+All rights reserved.   This program and the accompanying materials
+are made available under the terms of the Eclipse Public License
+v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin download-size="159" id="org.eclipse.papyrus.uml.nattable" install-size="349" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="11" id="org.eclipse.papyrus.uml.nattable.generic" install-size="14" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="13" id="org.eclipse.papyrus.uml.nattable.generic.config" install-size="19" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="199" id="org.eclipse.papyrus.uml.nattable.menu" install-size="393" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="17" id="org.eclipse.papyrus.uml.nattable.xtext.integration" install-size="27" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="15" id="org.eclipse.papyrus.uml.nattable.clazz.config" install-size="27" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="18" id="org.eclipse.papyrus.uml.nattable.xtext.valuespecification" install-size="29" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="41" id="org.eclipse.papyrus.uml.nattable.stereotype.display" install-size="85" unpack="false" version="1.1.2.201509161440"/>
+
+</feature>

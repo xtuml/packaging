@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin
+   id="org.antlr"
+   name="Antlr Plug-in"
+   version="2.7.6"
+   provider-name="http://antlr.org">
+
+   <runtime>
+      <library name="antlr.jar">
+         <export name="*"/>
+      </library>
+   </runtime>
+   <requires>
+   </requires>
+
+</plugin>

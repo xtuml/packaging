@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="org.eclipse.papyrus.customization.feature" label="Papyrus customization" provider-name="Eclipse Modeling Project" version="1.1.2.201509161440">
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      Copyright (c) 2012 CEA LIST
+All rights reserved.   This program and the accompanying materials
+are made available under the terms of the Eclipse Public License
+v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin download-size="18" id="org.eclipse.papyrus.customization.paletteconfiguration" install-size="35" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="209" id="org.eclipse.papyrus.customization.properties" install-size="535" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="124" id="org.eclipse.papyrus.customization.properties.generation" install-size="272" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="67" id="org.eclipse.papyrus.customization.properties.model.xwt" install-size="142" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="222" id="org.eclipse.papyrus.customization.palette" install-size="478" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="53" id="org.eclipse.papyrus.infra.gmfdiag.expansion.edit" install-size="91" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="78" id="org.eclipse.papyrus.infra.gmfdiag.expansion.editor" install-size="160" unpack="false" version="1.1.2.201509161440"/>
+
+</feature>

@@ -1,0 +1,20 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: N83MMLJ54/L2IEDdyXPSPP8PhESgJ
+ E41vlLbBRWH2D4=
+SHA-256-Digest-Manifest: AmfJNaRsjl05EF+xx3jH9alCo1H0B2e0jOMphaFth8w=
+Created-By: 1.8.0_51 (Oracle Corporation)
+
+Name: feature.xml
+SHA-256-Digest: /YV3IIcql34W35hTfyNXnW0YUh3/tbGOkr62dZyhVGE=
+
+Name: feature.properties
+SHA-256-Digest: cPGBTiGaI3HA1L2XkcCDlYfOjL1QTv4CcQXoXn36UkU=
+
+Name: META-INF/maven/org.eclipse.papyrus/org.eclipse.papyrus.customiza
+ tion.feature/pom.properties
+SHA-256-Digest: /5SCZ79le0yjsHB097Rwlb3bkS6X5SA/FEEYRtaszJM=
+
+Name: META-INF/maven/org.eclipse.papyrus/org.eclipse.papyrus.customiza
+ tion.feature/pom.xml
+SHA-256-Digest: tICvmmALDyCRWdzSjfm2zUfJElTc0rNIAgmUflW5VIo=
+

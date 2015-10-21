@@ -1,0 +1,5 @@
+org.antlr.eclipse.core/debug=false
+org.antlr.eclipse.core/nature/debug=true
+org.antlr.eclipse.core/tool/debug=true
+org.antlr.eclipse.core/builder/debug=true
+
