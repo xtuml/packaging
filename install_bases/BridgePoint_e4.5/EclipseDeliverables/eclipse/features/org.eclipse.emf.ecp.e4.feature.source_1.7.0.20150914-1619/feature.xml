@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.emf.ecp.e4.feature.source" version="1.7.0.20150914-1619" plugin="org.eclipse.emf.ecp.ui.e4" label="ECP e4 UI Integration incl. Sources" provider-name="%providerName">
+  <includes id="org.eclipse.emf.ecp.e4.feature" version="1.7.0.20150914-1619"/>
+  <description>
+      %description
+   </description>
+  <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.emf.ecp.ui.e4.source" version="1.7.0.20150914-1619" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.emfstore.ui.e4.source" version="1.7.0.20150914-1619" download-size="0" install-size="0" unpack="false"/>
+  <includes id="org.eclipse.emf.ecp.feature.source" version="1.7.0.20150914-1619"/>
+</feature>

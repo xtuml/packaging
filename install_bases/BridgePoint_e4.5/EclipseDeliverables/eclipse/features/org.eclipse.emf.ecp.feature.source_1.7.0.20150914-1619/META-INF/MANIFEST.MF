@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: genie.ecp
+Created-By: Apache Maven
+Build-Jdk: 1.7.0_80
+
+Name: rootfiles/notice.html
+SHA-256-Digest: OurrQ7poDxKcM4Kfh+Yne4WuzkGoMBkbZ9JTRXOCx/s=
+
+Name: about.html
+SHA-256-Digest: ZYczHLHHJbJ2GSLe/MBOpU/zRznwNG9X6G0P5BecAYs=
+
+Name: rootfiles/epl-v10.html
+SHA-256-Digest: ZaJ7ON/u4KgGgg5Gj2Pt3cF4gt5ZScsZnYlw/nsMqWw=
+
+Name: rootfiles/about.html
+SHA-256-Digest: ZYczHLHHJbJ2GSLe/MBOpU/zRznwNG9X6G0P5BecAYs=
+
+Name: epl-v10.html
+SHA-256-Digest: mpbQ2vmKpvtKpTDTmcdCxmEhsL2uSh9/+iLSE14d9/0=
+
+Name: META-INF/maven/org.eclipse.emf.ecp/org.eclipse.emf.ecp.feature/p
+ om.xml
+SHA-256-Digest: Ht/V0ZM3TtMkdGJwdGIrT5C1WdAKIKQPljrnYAX1LSI=
+
+Name: copyright.txt
+SHA-256-Digest: 60b7/21zaaozJWGfYoWX16ZdNKD6+NiNDi1U/cRwWMc=
+
+Name: feature.xml
+SHA-256-Digest: gjkCw0RbMuYYmVP6dhOTSiVwkz0LhM6jSEd2koOkz44=
+
+Name: eclipse_update_120.jpg
+SHA-256-Digest: Hz0atd2kr+i4cvgLVlm8vrN9olKs5NgxwdDxTuA9N2k=
+
+Name: feature.properties
+SHA-256-Digest: 0YcRqjtDwekVjzV5wVklKbn+vclzC843l21BM3tfHXo=
+
+Name: META-INF/maven/org.eclipse.emf.ecp/org.eclipse.emf.ecp.feature/p
+ om.properties
+SHA-256-Digest: jjuDNbHSg+j42HyFmIbbEvUlv56Zsm7rJUx8QL8ysAo=
+
+Name: license.html
+SHA-256-Digest: X315zLynvdLZ4DaYSopgxruQUUEadA3FOPNviC+YO24=
+

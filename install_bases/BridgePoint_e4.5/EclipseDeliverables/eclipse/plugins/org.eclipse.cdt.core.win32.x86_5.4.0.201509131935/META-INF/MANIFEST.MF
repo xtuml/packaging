@@ -1,0 +1,51 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.cdt.core.win32.x86;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: genie.cdt
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/cdt/or
+ g.eclipse.cdt.git;path="core/org.eclipse.cdt.core.win32.x86";commitId
+ =52d07e393392fdd44090aca3520124e73388d3b6
+Eclipse-PlatformFilter: (&(osgi.os=win32)(osgi.arch=x86))
+Bundle-ManifestVersion: 2
+Bundle-Vendor: %providerName
+Fragment-Host: org.eclipse.cdt.core.native;bundle-version="[5.7.0,6.0.
+ 0)"
+Bundle-Name: %fragmentName.win32.x86
+Bundle-Version: 5.4.0.201509131935
+Bundle-Localization: plugin
+Created-By: Apache Maven 3.0.5
+Build-Jdk: 1.7.0_80
+Eclipse-BundleShape: dir
+
+Name: about.html
+SHA-256-Digest: WD/eUFEUHOh0r75Ri8Vxb4ISdPWJHQBg0WRTnQshgRw=
+
+Name: os/win32/x86/listtasks.exe
+SHA-256-Digest: +dMUwICnYuHzkEvfWQHuUrz9u0B0PJwsvZpwA35HPoE=
+
+Name: os/win32/x86/spawner.dll
+SHA-256-Digest: OJPx9nWsaE6CGbgR16TQmHvoDursG1w/twzsJuar+Vw=
+
+Name: os/win32/x86/winreg.dll
+SHA-256-Digest: a1tgkDAf142LldRIhBmAYFHB4HZT8ilyHpokCqTjRdc=
+
+Name: META-INF/maven/org.eclipse.cdt/org.eclipse.cdt.core.win32.x86/po
+ m.properties
+SHA-256-Digest: UrrnMJN0BSasdWXVvsSId6zfQDsk2dWCiys6NAYthPE=
+
+Name: os/win32/x86/pty.dll
+SHA-256-Digest: lHx0tkbyfQ5sl7Z1j9wv6fH4YM2j31qBwCteD/WdPAE=
+
+Name: META-INF/maven/org.eclipse.cdt/org.eclipse.cdt.core.win32.x86/po
+ m.xml
+SHA-256-Digest: u4Y/jnpiAcb/ZkdFbJKWafOJ7g64m1bmT6FV5TWuLN0=
+
+Name: os/win32/x86/starter.exe
+SHA-256-Digest: qpCyvX4SK/NBuUjMm0r6nQYOOgMozLWw0JBH1kIjtPo=
+
+Name: os/win32/x86/winpty-agent.exe
+SHA-256-Digest: OVqLG54cV3GwAQqtMiei/3j12kjhy7vrvF9pBX6ix1w=
+
+Name: os/win32/x86/winpty.dll
+SHA-256-Digest: VJEKQML++UOgPZEUcfnnhG9/8TvpsZYyUg+GM87iStM=
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>org.eclipse.papyrusrt.core.releng</artifactId>
+		<groupId>org.eclipse.papyrusrt</groupId>
+		<version>0.7.0-SNAPSHOT</version>
+		<relativePath>../../../releng/core</relativePath>
+	</parent>
+	<artifactId>org.eclipse.papyrusrt.umlrt.profile.feature</artifactId>
+	<groupId>org.eclipse.papyrusrt</groupId>
+	<version>0.7.0-SNAPSHOT</version>
+	<packaging>eclipse-feature</packaging>
+</project>

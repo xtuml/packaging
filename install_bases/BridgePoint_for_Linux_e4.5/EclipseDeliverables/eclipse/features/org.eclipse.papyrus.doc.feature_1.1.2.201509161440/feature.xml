@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="org.eclipse.papyrus.doc.feature" label="Papyrus Documentation Feature" provider-name="Eclipse Modeling Project" version="1.1.2.201509161440">
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+  Copyright (c) 2013, 2015 CEA LIST, Christian W. Damus, and others.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License v1.0
+  which accompanies this distribution, and is available at
+  http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin download-size="1046" id="org.eclipse.papyrus.cdo.ui.doc" install-size="1069" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="69" id="org.eclipse.papyrus.copypaste.ui.doc" install-size="87" version="1.1.2.201509161440"/>
+
+   <plugin download-size="284" id="org.eclipse.papyrus.dsml.validation.doc" install-size="321" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="2872" id="org.eclipse.papyrus.infra.gmfdiag.common.doc" install-size="4126" version="1.1.2.201509161440"/>
+
+   <plugin download-size="369" id="org.eclipse.papyrus.infra.gmfdiag.css.doc" install-size="424" version="1.1.2.201509161440"/>
+
+   <plugin download-size="1400" id="org.eclipse.papyrus.infra.nattable.doc" install-size="1662" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="378" id="org.eclipse.papyrus.infra.newchild.doc" install-size="414" version="1.1.2.201509161440"/>
+
+   <plugin download-size="67" id="org.eclipse.papyrus.infra.services.controlmode.doc" install-size="74" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="56" id="org.eclipse.papyrus.infra.viewpoints.doc" install-size="76" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="1098" id="org.eclipse.papyrus.layers.documentation" install-size="1230" version="1.1.2.201509161440"/>
+
+   <plugin download-size="674" id="org.eclipse.papyrus.moka.doc" install-size="731" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="1264" id="org.eclipse.papyrus.req.reqif.doc" install-size="1366" version="1.1.2.201509161440"/>
+
+   <plugin download-size="2378" id="org.eclipse.papyrus.uml.decoratormodel.doc" install-size="2494" version="1.1.2.201509161440"/>
+
+   <plugin download-size="881" id="org.eclipse.papyrus.uml.diagram.common.doc" install-size="999" version="1.1.2.201509161440"/>
+
+   <plugin download-size="2700" id="org.eclipse.papyrus.uml.diagram.profile.doc" install-size="2764" version="1.1.2.201509161440"/>
+
+   <plugin download-size="3129" id="org.eclipse.papyrus.uml.doc" install-size="46687" version="1.1.2.201509161440"/>
+
+   <plugin download-size="59" id="org.eclipse.papyrus.uml.modelrepair.doc" install-size="73" version="1.1.2.201509161440"/>
+
+   <plugin download-size="890" id="org.eclipse.papyrus.uml.profile.assistants.doc" install-size="948" version="1.1.2.201509161440"/>
+
+   <plugin download-size="1213" id="org.eclipse.papyrus.uml.search.ui.doc" install-size="1283" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="636" id="org.eclipse.papyrus.views.properties.doc" install-size="707" version="1.1.2.201509161440"/>
+
+   <plugin download-size="27" id="org.eclipse.papyrus.infra.doc" install-size="31" unpack="false" version="1.1.2.201509161440"/>
+
+    <plugin download-size="88" id="org.eclipse.papyrus.emf.facet.aggregate.doc" install-size="102" version="1.1.2.201509161440"/>
+
+   <plugin download-size="155" id="org.eclipse.papyrus.emf.facet.custom.doc" install-size="198" version="1.1.2.201509161440"/>
+
+   <plugin download-size="512" id="org.eclipse.papyrus.emf.facet.custom.metamodel.editor.doc" install-size="590" version="1.1.2.201509161440"/>
+
+   <plugin download-size="468" id="org.eclipse.papyrus.emf.facet.doc" install-size="2073" unpack="false" version="1.1.2.201509161440"/>
+
+   <plugin download-size="332" id="org.eclipse.papyrus.emf.facet.efacet.doc" install-size="381" version="1.1.2.201509161440"/>
+
+   <plugin download-size="127" id="org.eclipse.papyrus.emf.facet.util.emf.doc" install-size="139" version="1.1.2.201509161440"/>
+</feature>

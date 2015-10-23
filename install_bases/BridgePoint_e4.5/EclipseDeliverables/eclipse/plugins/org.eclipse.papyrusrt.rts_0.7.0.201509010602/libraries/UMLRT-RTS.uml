@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:C_Cpp="http://www.eclipse.org/papyrus/C_Cpp/1" xmlns:UMLRealTime="http://www.eclipse.org/papyrus/umlrt" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_mPjAgGXmEeS_4daqvwyFrg" name="RTS">
+    <packagedElement xmi:type="uml:Package" xmi:id="_2XUjEGXrEeS_4daqvwyFrg" name="Types">
+      <packagedElement xmi:type="uml:Package" xmi:id="_1rdkYGtWEeSCmtGQ-V4nzg" name="General">
+        <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_9U77kOzZEeSRtqCWFwOf8g" name="MULTIPLE">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_Du2OgOzbEeSRtqCWFwOf8g">
+            <body>&lt;font size=&quot;3&quot;>&lt;b>Note&lt;/b>: The &quot;MULTIPLE&quot; type defined here is used to represent a parameter that can have multiple
+        values. This used to represent runtime services protocol messages that have multiple signatures for the same operation name
+        so that only one operation is seen.&lt;/font></body>
+          </ownedComment>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_G6gegHDiEeS87_I7iwkr5g" name="Communications">
+        <packagedElement xmi:type="uml:Class" xmi:id="_WkedAHDiEeS87_I7iwkr5g" name="UMLRTSignal"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XwBDEHDiEeS87_I7iwkr5g" name="UMLRTMessage">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_jwk70HDrEeSwWKwNKw1iAA" name="srcPortIndex">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_pLzOYHDrEeSwWKwNKw1iAA" name="destPortIndex">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_vLQ2cHDrEeSwWKwNKw1iAA" name="destPort" type="_o-Ht0HDiEeS87_I7iwkr5g" aggregation="composite" association="_zE_o8Om8EeSU_6ltpxdizg"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_2x53sHDrEeSwWKwNKw1iAA" name="signal" type="_WkedAHDiEeS87_I7iwkr5g" aggregation="composite" association="_5MoVkOm8EeSU_6ltpxdizg"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_8hrFoHDlEeS87_I7iwkr5g" name="priority" type="_QFZTMG6REeSyDdTKostG4Q" aggregation="composite" association="_kdf0EOm8EeSU_6ltpxdizg">
+            <defaultValue xmi:type="uml:InstanceValue" xmi:id="_eTABAOhZEeSwfNwUI8sCsg" instance="_WFw6MG6REeSyDdTKostG4Q"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_o-Ht0HDiEeS87_I7iwkr5g" name="UMLRTCommsPort"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_QFZTMG6REeSyDdTKostG4Q" name="Priorities">
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_Ru19QG6REeSyDdTKostG4Q" name="PRIORITY_BACKGROUND"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_USPHEG6REeSyDdTKostG4Q" name="PRIORITY_LOW"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_WFw6MG6REeSyDdTKostG4Q" name="PRIORITY_NORMAL"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_XnDt0G6REeSyDdTKostG4Q" name="PRIORITY_HIGH"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_ZYBVIG6REeSyDdTKostG4Q" name="PRIORITY_PANIC"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_cLTVEG6REeSyDdTKostG4Q" name="PRIORITY_SYSTEM"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_fQPswG6REeSyDdTKostG4Q" name="PRIORITY_SYNCHRONOUS"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_kdf0EOm8EeSU_6ltpxdizg" name="A_priority_uMLRTMessage" memberEnd="_8hrFoHDlEeS87_I7iwkr5g _kdi3YOm8EeSU_6ltpxdizg">
+          <ownedEnd xmi:type="uml:Property" xmi:id="_kdi3YOm8EeSU_6ltpxdizg" name="uMLRTMessage" type="_XwBDEHDiEeS87_I7iwkr5g" association="_kdf0EOm8EeSU_6ltpxdizg">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kdkFgOm8EeSU_6ltpxdizg"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kdkskOm8EeSU_6ltpxdizg" value="1"/>
+          </ownedEnd>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_zE_o8Om8EeSU_6ltpxdizg" name="A_destPort_uMLRTMessage" memberEnd="_vLQ2cHDrEeSwWKwNKw1iAA _zFCsQOm8EeSU_6ltpxdizg">
+          <ownedEnd xmi:type="uml:Property" xmi:id="_zFCsQOm8EeSU_6ltpxdizg" name="uMLRTMessage" type="_XwBDEHDiEeS87_I7iwkr5g" association="_zE_o8Om8EeSU_6ltpxdizg">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zFDTUOm8EeSU_6ltpxdizg"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zFD6YOm8EeSU_6ltpxdizg" value="1"/>
+          </ownedEnd>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_5MoVkOm8EeSU_6ltpxdizg" name="A_signal_uMLRTMessage" memberEnd="_2x53sHDrEeSwWKwNKw1iAA _5Mqx0Om8EeSU_6ltpxdizg">
+          <ownedEnd xmi:type="uml:Property" xmi:id="_5Mqx0Om8EeSU_6ltpxdizg" name="uMLRTMessage" type="_XwBDEHDiEeS87_I7iwkr5g" association="_5MoVkOm8EeSU_6ltpxdizg">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5MrY4Om8EeSU_6ltpxdizg"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5Mr_8Om8EeSU_6ltpxdizg" value="1"/>
+          </ownedEnd>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_wnrPkICNEeSeANT-DfY5oA" name="Capsules">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_MLLA0ICOEeSeANT-DfY5oA" name="UMLRTCapsulePart"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GfwZUICSEeSeANT-DfY5oA" name="UMLRTCapsuleId">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_X68AUICeEeSeANT-DfY5oA" name="isValid">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_X68AUYCeEeSeANT-DfY5oA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_9jdl4G6MEeSyDdTKostG4Q" name="Time">
+        <packagedElement xmi:type="uml:Class" xmi:id="_6qkTMGXmEeS_4daqvwyFrg" name="UMLRTTimerId">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_BPkNkHDlEeS87_I7iwkr5g" name="isValid">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_EPGg0HDlEeS87_I7iwkr5g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_IWYV4G6NEeSyDdTKostG4Q" name="UMLRTTimespec">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7Kv94G6TEeSyDdTKostG4Q" name="tv_sec">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_BV8U0G6UEeSyDdTKostG4Q" name="tv_nsec">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedAttribute>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_ew0bEHDcEeS87_I7iwkr5g" name="UMLRTTimespec">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_ew0bEXDcEeS87_I7iwkr5g" name="tm" type="_IWYV4G6NEeSyDdTKostG4Q"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_7C_QMHDcEeS87_I7iwkr5g" name="UMLRTTimespec">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_-_ErQHDcEeS87_I7iwkr5g" name="seconds">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ciz3wHDdEeS87_I7iwkr5g" name="nanoseconds">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_iXxeMHDdEeS87_I7iwkr5g" name="getClock" isStatic="true">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_n04nIHDdEeS87_I7iwkr5g" name="tm" type="_IWYV4G6NEeSyDdTKostG4Q" direction="inout"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_vIleQHDdEeS87_I7iwkr5g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_6y_P4HDdEeS87_I7iwkr5g" name="toString">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ch0j0HDeEeS87_I7iwkr5g" name="buf">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_G4IcwHDeEeS87_I7iwkr5g" name="size">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_LoRK8HDeEeS87_I7iwkr5g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_QzjkEHDeEeS87_I7iwkr5g" name="toStringRelative">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_QzjkEXDeEeS87_I7iwkr5g" name="buf">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_QzjkEnDeEeS87_I7iwkr5g" name="size">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_QzjkE3DeEeS87_I7iwkr5g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6xr1kGXrEeS_4daqvwyFrg" name="Protocols">
+      <packagedElement xmi:type="uml:Package" xmi:id="_BlAjgGXsEeS_4daqvwyFrg" name="UMLRTTimerProtocol">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_WcmqUOhKEeSwfNwUI8sCsg" annotatedElement="_RQ6bsGXsEeS_4daqvwyFrg _Rx96UGXsEeS_4daqvwyFrg">
+          <body>&lt;font size=&quot;4&quot;>&lt;b>Note: Operation signatures are not shown in the model because of currently limitations in the code
+        generator. Valid signatures as available in comments for each of the &quot;protocol messages&quot; (operations).&lt;/b>&lt;/font></body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_MxQZgGXsEeS_4daqvwyFrg" name="UMLRTTimerProtocol"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_RQ6bsGXsEeS_4daqvwyFrg" name="UMLRTTimerProtocol">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_Yq5LYHDsEeSwWKwNKw1iAA" name="informAt">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_HFF_sOhIEeSwfNwUI8sCsg" annotatedElement="_Yq5LYHDsEeSwWKwNKw1iAA">
+              <body>Valid operations: 
+        &lt;div>
+            &lt;ul>
+                &lt;li>
+                    + informAt( in clockTime: UMLRTTimeSpec, in priority: Priorities): UMLRTTimerId
+                &lt;/li>
+                &lt;li>
+                    + informAt( in clockTime: UMLRTTimeSpec, in userData: void, in type: UMLRTObject_class, in priority:
+                    Priorities): UMLRTTimerId
+                &lt;/li>
+                &lt;li>
+                    + informAt( in clockTime: UMLRTTimeSpec, in typedValue: UMLRTTypedValue, in type: UMLRTObject_class, in
+                    priority: Priorities): UMLRTTimerId
+                &lt;/li>
+            &lt;/ul>
+        &lt;/div></body>
+            </ownedComment>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_0ZPFQHDtEeSwWKwNKw1iAA" name="informIn">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_QLBM8OhJEeSwfNwUI8sCsg">
+              <body>Valid operations: 
+        &lt;div>
+            &amp;nbsp; &amp;nbsp; + informIn( in relativeTime: UMLRTTimeSpec, in priority: Priorities): UMLRTTimerId
+        &lt;/div>
+        &lt;div>
+            &amp;nbsp; &amp;nbsp; + informIn( in relativeTime: UMLRTTimeSpec, in userData: void, in type: UMLRTObject_class, in priority:
+            Priorities): UMLRTTimerId
+        &lt;/div>
+        &lt;div>
+            &amp;nbsp; &amp;nbsp; + informIn( in relativeTime: UMLRTTimeSpec, in typedValue: UMLRTTypedValue, in type: UMLRTObject_class,
+            in priority: Priorities): UMLRTTimerId
+        &lt;/div></body>
+            </ownedComment>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_IZrUwHDuEeSwWKwNKw1iAA" name="informEvery">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_-1oZAOhJEeSwfNwUI8sCsg">
+              <body>Valid operations: 
+        &lt;div>
+            &amp;nbsp; &amp;nbsp; + informEvery( in relativeTime: UMLRTTimeSpec, in priority: Priorities): UMLRTTimerId
+        &lt;/div>
+        &lt;div>
+            &amp;nbsp; &amp;nbsp; + informEvery( in relativeTime: UMLRTTimeSpec, in userData: void, in type: UMLRTObject_class, in
+            priority: Priorities): UMLRTTimerId
+        &lt;/div>
+        &lt;div>
+            &amp;nbsp; &amp;nbsp; + informEvery( in relativeTime: UMLRTTimeSpec, in typedValue: UMLRTTypedValue, in type:
+            UMLRTObject_class, in priority: Priorities): UMLRTTimerId
+        &lt;/div></body>
+            </ownedComment>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_QdezIHDuEeSwWKwNKw1iAA" name="cancelTimer"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_D4MRIHDvEeSwWKwNKw1iAA" name="timeAdjustStart"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_MyU6kHDvEeSwWKwNKw1iAA" name="timeAdjustComplete"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_Rx96UGXsEeS_4daqvwyFrg" name="UMLRTTimerProtocol~">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_ovCvAHDtEeSwWKwNKw1iAA" name="timeout"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_SH2DsGXsEeS_4daqvwyFrg" name="UMLRTTimerProtocolIO"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_fE5I8GXsEeS_4daqvwyFrg" client="_MxQZgGXsEeS_4daqvwyFrg" supplier="_Rx96UGXsEeS_4daqvwyFrg"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_fgW88GXsEeS_4daqvwyFrg" client="_MxQZgGXsEeS_4daqvwyFrg" supplier="_SH2DsGXsEeS_4daqvwyFrg"/>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_gYyZwGXsEeS_4daqvwyFrg" client="_MxQZgGXsEeS_4daqvwyFrg" supplier="_RQ6bsGXsEeS_4daqvwyFrg"/>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_gzuCQGXsEeS_4daqvwyFrg" client="_MxQZgGXsEeS_4daqvwyFrg" supplier="_SH2DsGXsEeS_4daqvwyFrg"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_epw2MHDvEeSwWKwNKw1iAA" name="informAt" operation="_Yq5LYHDsEeSwWKwNKw1iAA"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_fug3wHDvEeSwWKwNKw1iAA" name="informEvery" operation="_IZrUwHDuEeSwWKwNKw1iAA"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_fw4PQHDvEeSwWKwNKw1iAA" name="cancelTimer" operation="_QdezIHDuEeSwWKwNKw1iAA"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_fzoBQHDvEeSwWKwNKw1iAA" name="timeAdjustStart" operation="_D4MRIHDvEeSwWKwNKw1iAA"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_f2S6wHDvEeSwWKwNKw1iAA" name="timeAdjustComplete" operation="_MyU6kHDvEeSwWKwNKw1iAA"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_f8ZiwHDvEeSwWKwNKw1iAA" name="informIn" operation="_0ZPFQHDtEeSwWKwNKw1iAA"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_IaEO8HDxEeSwWKwNKw1iAA" name="timeout" operation="_ovCvAHDtEeSwWKwNKw1iAA"/>
+        <packagedElement xmi:type="uml:AnyReceiveEvent" xmi:id="_Mjka8HDxEeSwWKwNKw1iAA" name="*"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_NUhyUGtVEeSCmtGQ-V4nzg" name="UMLRTFrameProtocol">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ttT6QOhWEeSwfNwUI8sCsg" annotatedElement="_a74Y0GtVEeSCmtGQ-V4nzg">
+          <body>&lt;font size=&quot;4&quot;>&lt;b>Note: Operation signatures are not shown in the model because of currently limitations in the code
+        generator. Valid signatures as available in comments for each of the &quot;protocol messages&quot; (operations).&lt;/b>&lt;/font></body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_TWVjwGtVEeSCmtGQ-V4nzg" name="UMLRTFrameProtocol"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_a74Y0GtVEeSCmtGQ-V4nzg" name="UMLRTFrameProtocol">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_s-Wd0ICgEeSeANT-DfY5oA" name="incarnate">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_2IkWsOhTEeSwfNwUI8sCsg">
+              <body>Valid operaton signatures: 
+        &lt;div>
+            &lt;span style=&quot;font-size: 10pt;&quot;>&amp;nbsp; + incarnate( in part: UMLRTCapsulePart, in logThread: char, in index: int):
+            UMLRTCapsuleId&lt;/span>
+        &lt;/div>
+        &lt;div>
+            &lt;span style=&quot;font-size: 10pt;&quot;>&amp;nbsp; + incarnate( in part: UMLRTCapsulePart, in controller: UMLRTController, in index:
+            int ): UMLRTCapsuleId&lt;/span>
+        &lt;/div>
+        &lt;div>
+            &lt;span style=&quot;font-size: 10pt;&quot;>&amp;nbsp; + incarnate( in part: UMLRTCapsulePart, in capsuleClass: UMLRTCapsuleClass, in
+            logThread: char, in index: int ): UMLRTCapsuleId&lt;/span>
+        &lt;/div>
+        &lt;div>
+            &lt;span style=&quot;font-size: 10pt;&quot;>&amp;nbsp; + incarnate( in part: UMLRTCapsulePart, in capsuleClass: UMLRTCapsuleClass, in
+            controller: UMLRTController, in index: int ): UMLRTCapsuleId&lt;/span>
+        &lt;/div>
+        &lt;div>
+            &lt;span style=&quot;font-size: 10pt;&quot;>&amp;nbsp; + incarnate( in part: UMLRTCapsulePart, in userData: void, in type:
+            UMLRTObject_class, in logThread: char, in index: int ): UMLRTCapsuleId&lt;/span>
+        &lt;/div>
+        &lt;div>
+            &lt;span style=&quot;font-size: 10pt;&quot;>&amp;nbsp; + incarnate( in part: UMLRTCapsulePart, in userData: void, in type:
+            UMLRTObject_class, in logThread: UMLRTController, in index: int ): UMLRTCapsuleId&lt;/span>
+        &lt;/div>
+        &lt;div>
+            &lt;span style=&quot;font-size: 10pt;&quot;>&amp;nbsp; + incarnate( in part: UMLRTCapsulePart, in capsuleClass: UMLRTCapsuleClass, in
+            userData: void, in type: UMLRTObject_class, in logThread: char, in index: int ): UMLRTCapsuleId&lt;/span>
+        &lt;/div>
+        &lt;div>
+            &lt;span style=&quot;font-size: 10pt;&quot;>&amp;nbsp; + incarnate( in part: UMLRTCapsulePart, in capsuleClass: UMLRTCapsuleClass, in
+            userData: void, in type: UMLRTObject_class, in controller: UMLRTController, in index: int ): UMLRTCapsuleId&lt;/span>
+        &lt;/div>
+        &lt;div>
+            &lt;span style=&quot;font-size: 10pt;&quot;>&amp;nbsp; + incarnate( in part: UMLRTCapsulePart, in value: UMLRTTypedValue, in logThread:
+            char, in index: int ): UMLRTCapsuleId + incarnate( in part: UMLRTCapsulePart, in value: UMLRTTypedValue, in controller:
+            UMLRTController, in index: int ): UMLRTCapsuleId&lt;/span>
+        &lt;/div>
+        &lt;div>
+            &lt;span style=&quot;font-size: 10pt;&quot;>&amp;nbsp; + incarnate( in part: UMLRTCapsulePart, in capsuleClass: UMLRTCapsuleClass, in
+            value: UMLRTTypedValue, in logThread: char, in index: int ): UMLRTCapsuleId&lt;/span>
+        &lt;/div>
+        &lt;div>
+            &lt;span style=&quot;font-size: 10pt;&quot;>&amp;nbsp; + incarnate( in part: UMLRTCapsulePart, in capsuleClass: UMLRTCapsuleClass, in
+            value: UMLRTTypedValue, in controller: UMLRTController, in index: int ): UMLRTCapsuleId&lt;/span>
+        &lt;/div></body>
+            </ownedComment>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_xx2MkIChEeSeANT-DfY5oA" name="incarnateAt"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_eI-mIL6HEeSGie7nK8XKTA" name="destroy">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_sg41UOhUEeSwfNwUI8sCsg">
+              <body>Valid signatures: 
+        &lt;div>
+            &amp;nbsp; &amp;nbsp;+ destroy( in id: UMLRTCapsuleId): bool
+        &lt;/div>
+        &lt;div>
+            &amp;nbsp; &amp;nbsp;+ destroy( in part: UMLRTCapsulePart): bool
+        &lt;/div></body>
+            </ownedComment>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_kLBLoL6IEeSGie7nK8XKTA" name="import" visibility="public">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_XYSOcOhVEeSwfNwUI8sCsg">
+              <body>Valid signatures: 
+        &lt;div>
+            + import( in id: UMLRTCapsuleId, in dest: UMLRTCapsulePart, in index: int): bool
+        &lt;/div>
+        &lt;div>
+            + import( in part: UMLRTCapsulePart, in dest: UMLRTCapsulePart, in index: int): bool&lt;br />
+        &lt;/div></body>
+            </ownedComment>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_ifAgUL6JEeSGie7nK8XKTA" name="deport"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_bMdygGtVEeSCmtGQ-V4nzg" name="UMLRTFrameProtocol~"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_bgdFgGtVEeSCmtGQ-V4nzg" name="UMLRTFrameProtocolIO"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_pVpTsGtVEeSCmtGQ-V4nzg" client="_TWVjwGtVEeSCmtGQ-V4nzg" supplier="_bMdygGtVEeSCmtGQ-V4nzg"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_p0-7EGtVEeSCmtGQ-V4nzg" client="_TWVjwGtVEeSCmtGQ-V4nzg" supplier="_NUhyUGtVEeSCmtGQ-V4nzg"/>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_qQwREGtVEeSCmtGQ-V4nzg" client="_TWVjwGtVEeSCmtGQ-V4nzg" supplier="_a74Y0GtVEeSCmtGQ-V4nzg"/>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_q2MgcGtVEeSCmtGQ-V4nzg" client="_TWVjwGtVEeSCmtGQ-V4nzg" supplier="_bgdFgGtVEeSCmtGQ-V4nzg"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_A7OTAIeTEeSVyrlWP4nYew" name="incarnate" operation="_s-Wd0ICgEeSeANT-DfY5oA"/>
+        <packagedElement xmi:type="uml:AnyReceiveEvent" xmi:id="_CaNHkIeVEeSVyrlWP4nYew" name="*"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_KLbBIIeVEeSVyrlWP4nYew" name="incarnateAt" operation="_xx2MkIChEeSeANT-DfY5oA"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_NpBlYL6IEeSGie7nK8XKTA" name="destroy" operation="_eI-mIL6HEeSGie7nK8XKTA"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_mM0EQL6IEeSGie7nK8XKTA" name="import" operation="_kLBLoL6IEeSGie7nK8XKTA"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_lBmY4L6JEeSGie7nK8XKTA" name="deport" operation="_ifAgUL6JEeSGie7nK8XKTA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_yx-HEIeXEeSVyrlWP4nYew" name="UMLRTLogProtocol">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_vhZuEOhWEeSwfNwUI8sCsg" annotatedElement="_6kLfIIeXEeSVyrlWP4nYew">
+          <body>&lt;font size=&quot;4&quot;>&lt;b>Note: Operation signatures are not shown in the model because of currently limitations in the code
+        generator. Valid signatures as available in comments for each of the &quot;protocol messages&quot; (operations).&lt;/b>&lt;/font></body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_6kIb0IeXEeSVyrlWP4nYew" name="UMLRTLogProtocol"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_6kLfIIeXEeSVyrlWP4nYew" name="UMLRTLogProtocol">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_ip2XgIeYEeSVyrlWP4nYew" name="log"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_6ET20IeYEeSVyrlWP4nYew" name="show"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9a5YIIeYEeSVyrlWP4nYew" name="cr"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_IxBi4IeZEeSVyrlWP4nYew" name="crtab"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_UPtMsIeZEeSVyrlWP4nYew" name="space"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_YXWXgIeZEeSVyrlWP4nYew" name="tab"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_boBeEIeZEeSVyrlWP4nYew" name="commit"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_7U-YAIeZEeSVyrlWP4nYew" name="redirect"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_6kRlwIeXEeSVyrlWP4nYew" name="ProtocolRealizesIncomingInterface" client="_6kIb0IeXEeSVyrlWP4nYew" supplier="_6kLfIIeXEeSVyrlWP4nYew"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_6kTa8IeXEeSVyrlWP4nYew" name="UMLRTLogProtocol~"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_6kXsYIeXEeSVyrlWP4nYew" name="ProtocolUsesOutgoingInterface" client="_6kIb0IeXEeSVyrlWP4nYew" supplier="_6kTa8IeXEeSVyrlWP4nYew"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_6kZhkIeXEeSVyrlWP4nYew" name="UMLRTLogProtocolIo"/>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_6kdL8IeXEeSVyrlWP4nYew" name="ProtocolRealizesSymInterface" client="_6kIb0IeXEeSVyrlWP4nYew" supplier="_6kZhkIeXEeSVyrlWP4nYew"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_6kdzAIeXEeSVyrlWP4nYew" name="ProtocolUsesSymInterface" client="_6kIb0IeXEeSVyrlWP4nYew" supplier="_6kZhkIeXEeSVyrlWP4nYew"/>
+        <packagedElement xmi:type="uml:AnyReceiveEvent" xmi:id="_6kfBIIeXEeSVyrlWP4nYew" name="*"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_ip8eIIeYEeSVyrlWP4nYew" name="show" operation="_6ET20IeYEeSVyrlWP4nYew"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_9a70YIeYEeSVyrlWP4nYew" name="space" operation="_UPtMsIeZEeSVyrlWP4nYew"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_YXZa0IeZEeSVyrlWP4nYew" name="commit" operation="_boBeEIeZEeSVyrlWP4nYew"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_hDkgwIeZEeSVyrlWP4nYew" name="redirect" operation="_7U-YAIeZEeSVyrlWP4nYew"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_pXUDIIeaEeSVyrlWP4nYew" name="log" operation="_ip2XgIeYEeSVyrlWP4nYew"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_4WWOQIeaEeSVyrlWP4nYew" name="cr" operation="_9a5YIIeYEeSVyrlWP4nYew"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_8oPhQIeaEeSVyrlWP4nYew" name="crtab" operation="_IxBi4IeZEeSVyrlWP4nYew"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_8qNQIIeaEeSVyrlWP4nYew" name="tab" operation="_YXWXgIeZEeSVyrlWP4nYew"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="__4L-oOzdEeSRtqCWFwOf8g" name="UMLRTBaseCommProtocol">
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="__4DbwOzdEeSRtqCWFwOf8g" name="UMLRTBaseCommProtocol">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_NTKrIOzgEeSRtqCWFwOf8g">
+            <body>&lt;font size=&quot;3&quot;>&lt;b>Note&lt;/b>: This protocol is meant to be inherited from by all communication protocols (Runtime Services
+        typically are &lt;u>not&lt;/u> communications protocols). It provides a way for the RTS to send messages whenever a communication
+        port is bound (connected) or unbound (disconnected).&lt;br />
+         Both message sets are defined as &quot;in/out&quot; so that they are available whether the port is conjugated or not.&lt;br />
+         &lt;b>These protocol messages &lt;u>CANNOT&lt;/u> be sent by user code. Doing so will result in a runtime error!&lt;/b>&lt;/font></body>
+          </ownedComment>
+          <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__4aoIOzdEeSRtqCWFwOf8g" name="UMLRTBaseCommProtocol" client="__4DbwOzdEeSRtqCWFwOf8g" supplier="__4SsUOzdEeSRtqCWFwOf8g" contract="__4SsUOzdEeSRtqCWFwOf8g"/>
+          <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__4uKIOzdEeSRtqCWFwOf8g" name="UMLRTBaseCommProtocolIO" client="__4DbwOzdEeSRtqCWFwOf8g" supplier="__4nccOzdEeSRtqCWFwOf8g" contract="__4nccOzdEeSRtqCWFwOf8g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="__4SsUOzdEeSRtqCWFwOf8g" name="UMLRTBaseCommProtocol"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="__4eSgOzdEeSRtqCWFwOf8g" name="UMLRTBaseCommProtocol~"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="__4lAMOzdEeSRtqCWFwOf8g" name="UMLRTBaseCommProtocol~" client="__4DbwOzdEeSRtqCWFwOf8g" supplier="__4eSgOzdEeSRtqCWFwOf8g"/>
+        <packagedElement xmi:type="uml:AnyReceiveEvent" xmi:id="__4mOUOzdEeSRtqCWFwOf8g" name="*"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="__4nccOzdEeSRtqCWFwOf8g" name="UMLRTBaseCommProtocolIO">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_PQp9cOzeEeSRtqCWFwOf8g" name="rtBound"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_R-rp8OzeEeSRtqCWFwOf8g" name="rtUnbound"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Usage" xmi:id="__4v_UOzdEeSRtqCWFwOf8g" name="Protocol1IO" client="__4L-oOzdEeSRtqCWFwOf8g" supplier="__4nccOzdEeSRtqCWFwOf8g"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_PQtAwOzeEeSRtqCWFwOf8g" name="rtBound" operation="_PQp9cOzeEeSRtqCWFwOf8g"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_R-s4EOzeEeSRtqCWFwOf8g" name="rtUnbound" operation="_R-rp8OzeEeSRtqCWFwOf8g"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_FCVmAGXsEeS_4daqvwyFrg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FFkgMGXsEeS_4daqvwyFrg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/umlrt#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_RT_PROFILE/uml-rt.profile.uml#_1h74oEeVEeO0lv5O1DTHOQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_FFluUGXsEeS_4daqvwyFrg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FKs30GXsEeS_4daqvwyFrg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/umlrt/statemachine#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_RT_PROFILE/UMLRealTimeSM-addendum.profile.uml#_KLcn0FDtEeOA4ecmvfqvaw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8AJ74G6TEeSyDdTKostG4Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8FdSoG6TEeSyDdTKostG4Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_v1ykUOhDEeSwfNwUI8sCsg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v18VUOhDEeSwfNwUI8sCsg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VATP0OnIEeSdLJKftsZBhw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VAYIUOnIEeSdLJKftsZBhw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/C_Cpp/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PapyrusC_Cpp_PROFILES/C_Cpp.profile.uml#_j9REUByGEduN1bTiWJ0lyw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VAbysOnIEeSdLJKftsZBhw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VAfdEOnIEeSdLJKftsZBhw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VAfdEenIEeSdLJKftsZBhw" key="Version" value="0.0.3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VAfdEunIEeSdLJKftsZBhw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VAfdE-nIEeSdLJKftsZBhw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VAfdFOnIEeSdLJKftsZBhw" key="Date" value="2015-03-19"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VAfdFenIEeSdLJKftsZBhw" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VAbysenIEeSdLJKftsZBhw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLRT_CPP/RTCppProperties.profile.uml#_WyvuoM4NEeSo_bwoIR2YQw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UMLRT_CPP/RTCppProperties.profile.uml#_vl5LALs8EeSTjNEQkASznQ"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLRealTime:ProtocolContainer xmi:id="_HQDawGXsEeS_4daqvwyFrg" base_Package="_BlAjgGXsEeS_4daqvwyFrg"/>
+  <UMLRealTime:Protocol xmi:id="_PAVgMGXsEeS_4daqvwyFrg" base_Collaboration="_MxQZgGXsEeS_4daqvwyFrg"/>
+  <UMLRealTime:RTMessageSet xmi:id="_ztmSUGXsEeS_4daqvwyFrg" base_Interface="_RQ6bsGXsEeS_4daqvwyFrg"/>
+  <UMLRealTime:RTMessageSet xmi:id="_08ixsGXsEeS_4daqvwyFrg" base_Interface="_Rx96UGXsEeS_4daqvwyFrg" rtMsgKind="out"/>
+  <UMLRealTime:RTMessageSet xmi:id="_2mWoIGXsEeS_4daqvwyFrg" base_Interface="_SH2DsGXsEeS_4daqvwyFrg" rtMsgKind="inOut"/>
+  <UMLRealTime:ProtocolContainer xmi:id="_RuOWcGtVEeSCmtGQ-V4nzg" base_Package="_NUhyUGtVEeSCmtGQ-V4nzg"/>
+  <UMLRealTime:Protocol xmi:id="_Xld2oGtVEeSCmtGQ-V4nzg" base_Collaboration="_TWVjwGtVEeSCmtGQ-V4nzg"/>
+  <UMLRealTime:RTMessageSet xmi:id="_jPzW0GtVEeSCmtGQ-V4nzg" base_Interface="_a74Y0GtVEeSCmtGQ-V4nzg"/>
+  <UMLRealTime:RTMessageSet xmi:id="_kgBBgGtVEeSCmtGQ-V4nzg" base_Interface="_bMdygGtVEeSCmtGQ-V4nzg" rtMsgKind="out"/>
+  <UMLRealTime:RTMessageSet xmi:id="_mUJ4oGtVEeSCmtGQ-V4nzg" base_Interface="_bgdFgGtVEeSCmtGQ-V4nzg" rtMsgKind="inOut"/>
+  <UMLRealTime:ProtocolContainer xmi:id="_6jY08IeXEeSVyrlWP4nYew" base_Package="_yx-HEIeXEeSVyrlWP4nYew"/>
+  <UMLRealTime:Protocol xmi:id="_6kK4EIeXEeSVyrlWP4nYew" base_Collaboration="_6kIb0IeXEeSVyrlWP4nYew"/>
+  <UMLRealTime:RTMessageSet xmi:id="_6kPwkIeXEeSVyrlWP4nYew" base_Interface="_6kLfIIeXEeSVyrlWP4nYew"/>
+  <UMLRealTime:RTMessageSet xmi:id="_6kWeQIeXEeSVyrlWP4nYew" base_Interface="_6kTa8IeXEeSVyrlWP4nYew" rtMsgKind="out"/>
+  <UMLRealTime:RTMessageSet xmi:id="_6kbWwIeXEeSVyrlWP4nYew" base_Interface="_6kZhkIeXEeSVyrlWP4nYew" rtMsgKind="inOut"/>
+  <standard:ModelLibrary xmi:id="_5OcVwOhDEeSwfNwUI8sCsg" base_Package="_mPjAgGXmEeS_4daqvwyFrg"/>
+  <C_Cpp:NoCodeGen xmi:id="_XPOlgOnIEeSdLJKftsZBhw" base_element="_mPjAgGXmEeS_4daqvwyFrg"/>
+  <C_Cpp:NoCodeGen xmi:id="_AaeJIOzaEeSRtqCWFwOf8g" base_element="_9U77kOzZEeSRtqCWFwOf8g"/>
+  <UMLRealTime:ProtocolContainer xmi:id="__4QQEOzdEeSRtqCWFwOf8g" base_Package="__4L-oOzdEeSRtqCWFwOf8g"/>
+  <UMLRealTime:RTMessageSet xmi:id="__4W9wOzdEeSRtqCWFwOf8g" base_Interface="__4SsUOzdEeSRtqCWFwOf8g"/>
+  <UMLRealTime:RTMessageSet xmi:id="__4jLAOzdEeSRtqCWFwOf8g" base_Interface="__4eSgOzdEeSRtqCWFwOf8g" rtMsgKind="out"/>
+  <UMLRealTime:RTMessageSet xmi:id="__4rt4OzdEeSRtqCWFwOf8g" base_Interface="__4nccOzdEeSRtqCWFwOf8g" rtMsgKind="inOut"/>
+  <UMLRealTime:Protocol xmi:id="__4x0gOzdEeSRtqCWFwOf8g" base_Collaboration="__4DbwOzdEeSRtqCWFwOf8g"/>
+</xmi:XMI>

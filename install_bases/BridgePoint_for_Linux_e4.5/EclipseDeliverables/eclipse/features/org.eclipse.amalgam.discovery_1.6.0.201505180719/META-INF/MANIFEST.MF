@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: genie.amalgam
+Build-Jdk: 1.7.0_75
+Created-By: Apache Maven
+
+Name: META-INF/maven/org.eclipse.amalgam/org.eclipse.amalgam.discovery
+ /pom.xml
+SHA-256-Digest: Vn0eKJRVYu6SGPNBL2v4fOVpW1EFL05t4aMlXiRhqm8=
+
+Name: epl-v10.html
+SHA-256-Digest: T9ZK7tNA1ipkqNpLNx7+D20NdF9NLb76y6hsZG02vHI=
+
+Name: META-INF/maven/org.eclipse.amalgam/org.eclipse.amalgam.discovery
+ /pom.properties
+SHA-256-Digest: NRNqbkNzTW2ZIk2iFmBMh4hT0eNHpjSdd8FjL0T1PJo=
+
+Name: feature.xml
+SHA-256-Digest: /0s2PmpYi2aH3EAhgT02BQsVYRH9vF1wy7R4yPZM79s=
+
+Name: eclipse_update_120.jpg
+SHA-256-Digest: FAcZHH5NmCjIaBJgABBc1DvPQxRvfHUuFrwxg5VdYkc=
+
+Name: feature.properties
+SHA-256-Digest: 2kh/hAC1qOB8+ARtzRl0FsFVLvymjao9br3mvti6UIY=
+
+Name: license.html
+SHA-256-Digest: ZPcWT+RA2U0NZV/Hr4/R34K2EI57/1SEd6GAKmcYeg0=
+

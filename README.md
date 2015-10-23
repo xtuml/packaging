@@ -1,5 +1,5 @@
 packaging
 ==========
 
-Support files for building and packaging xtUML Editor source available in the xtuml/editor repository.
+Support files for building and packaging BridgePoint xtUML source available in xtuml/bridgepoint repository.
 
