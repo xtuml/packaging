@@ -1,0 +1,69 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: z9BJnaXCLSYSoDX1Gtsfz/QFgRM=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: upSymRCFuNI2WJQ6jgOblEee2MI=
+
+Name: contents/org.eclipse.xtext.example.domainmodel.ui.zip
+SHA1-Digest: t9Sr4VeyceruUzSHZmGPTGGbd9k=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: contents/org.eclipse.xtext.example.arithmetics.ide.zip
+SHA1-Digest: qK4AyiPvSiGKagu00gH25KFrtTA=
+
+Name: contents/org.eclipse.xtext.example.domainmodel.zip
+SHA1-Digest: F5tACa/uMNdYtIoSGMSkDiT5A8w=
+
+Name: org/eclipse/xtext/xtext/ui/examples/ExternalEditorAwareExampleIn
+ stallerWizard.class
+SHA1-Digest: 3VwNbDa/jf0oA4lrviRt1oYPTFI=
+
+Name: contents/org.eclipse.xtext.example.arithmetics.zip
+SHA1-Digest: d5tuDx6TRspTBexTyKquBRcIcfM=
+
+Name: contents/xbase.tutorial.zip
+SHA1-Digest: bhtF6IB6CExG2/rt9hOMYuJqxH0=
+
+Name: contents/org.eclipse.xtext.example.homeautomation.ui.zip
+SHA1-Digest: 28DAHODg4iVNyCULri2veaPOJME=
+
+Name: about.html
+SHA1-Digest: ndvVw5+urNOEMhFEsasUKrpQYII=
+
+Name: plugin.properties
+SHA1-Digest: X0yXgrPt6tEDAjQvYFZjz/OR6AM=
+
+Name: contents/org.eclipse.xtext.example.homeautomation.tests.zip
+SHA1-Digest: en4fnD0WaHMRWhBe3HZ90Tm+dZQ=
+
+Name: contents/org.eclipse.xtext.example.fowlerdsl.zip
+SHA1-Digest: 4helkiLARMwmbqB0f7EQKOElTmo=
+
+Name: contents/org.eclipse.xtext.example.arithmetics.ui.tests.zip
+SHA1-Digest: dGNgVKUK/Qd8iZ2ha27LrGkpzAs=
+
+Name: icons/genproject.gif
+SHA1-Digest: BjdB+oTL/YF7xZ+uSk+bKPpldQ4=
+
+Name: contents/org.eclipse.xtext.example.fowlerdsl.ui.zip
+SHA1-Digest: E3qnA60BK5Km0ndg2qAm7JU0hWU=
+
+Name: contents/org.eclipse.xtext.example.domainmodel.tests.zip
+SHA1-Digest: vS1xE4/RMj/rp6FrNSiBa+Ea9oU=
+
+Name: contents/org.eclipse.xtext.example.homeautomation.ide.zip
+SHA1-Digest: sVUwWqXIhD2f/OD543KjZVqJmEE=
+
+Name: contents/org.eclipse.xtext.example.arithmetics.tests.zip
+SHA1-Digest: F7hvkEV6ptVHkgiFsO33kwmFifk=
+
+Name: contents/org.eclipse.xtext.example.homeautomation.zip
+SHA1-Digest: RV2Xxr3fPCb0ziaXlFaWSWQotvA=
+
+Name: plugin.xml
+SHA1-Digest: Zr2enqI9MpqN2jEg0Rs7Y4iXUC8=
+
+Name: contents/org.eclipse.xtext.example.arithmetics.ui.zip
+SHA1-Digest: VzO1dV8Pz1JDYm0vJXtnetKthvw=
+
