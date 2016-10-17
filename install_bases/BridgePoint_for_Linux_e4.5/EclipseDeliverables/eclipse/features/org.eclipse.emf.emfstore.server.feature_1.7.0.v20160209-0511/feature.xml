@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.emfstore.server.feature"
+      label="EMFStore Server"
+      version="1.7.0.v20160209-0511"
+      provider-name="Eclipse Modeling Project"
+      plugin="org.eclipse.emf.emfstore.server">
+
+   <description url="http://emfstore.org">
+      This feature contains all plugins to run the EMFStore server.
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.apache.commons.codec" version="1.3.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.commons.logging"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.emf.emfstore.common.model"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.server"
+         download-size="606"
+         install-size="1083"
+         version="1.7.0.v20160209-0511"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.server.model"
+         download-size="480"
+         install-size="1207"
+         version="1.7.0.v20160209-0511"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.migration"
+         download-size="15"
+         install-size="21"
+         version="1.7.0.v20160209-0511"
+         unpack="false"/>
+
+</feature>

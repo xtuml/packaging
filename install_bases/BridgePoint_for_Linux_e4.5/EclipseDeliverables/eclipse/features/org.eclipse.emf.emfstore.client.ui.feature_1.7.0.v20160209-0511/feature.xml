@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.emfstore.client.ui.feature"
+      label="EMFStore Client UI"
+      version="1.7.0.v20160209-0511"
+      provider-name="Eclipse Modeling Project"
+      plugin="org.eclipse.emf.emfstore.client.ui">
+
+   <description url="http://emfstore.org">
+      This feature contains all plugins to provide user interfaces
+for client applications connecting to the EMFStore server.
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.emf.emfstore.server.model"/>
+      <import plugin="org.eclipse.emf.emfstore.client"/>
+      <import plugin="org.eclipse.emf.edit.ui"/>
+      <import plugin="org.eclipse.jface"/>
+      <import plugin="org.eclipse.core.expressions"/>
+      <import plugin="org.eclipse.ui.forms" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.emfstore.common.model"/>
+      <import plugin="org.eclipse.emf.edit"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.server.model.edit"
+         download-size="446"
+         install-size="727"
+         version="1.7.0.v20160209-0511"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.client.model.edit"
+         download-size="128"
+         install-size="162"
+         version="1.7.0.v20160209-0511"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.client.ui"
+         download-size="837"
+         install-size="1556"
+         version="1.7.0.v20160209-0511"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.common.model.edit"
+         download-size="51"
+         install-size="84"
+         version="1.7.0.v20160209-0511"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.emfstore.client.ui.rcp"
+         download-size="42"
+         install-size="74"
+         version="1.7.0.v20160209-0511"
+         fragment="true"
+         unpack="false"/>
+
+</feature>

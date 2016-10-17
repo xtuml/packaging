@@ -3,24 +3,14 @@
 <repository name='download cache' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
   <properties size='2'>
     <property name='p2.system' value='true'/>
-    <property name='p2.timestamp' value='1445454048984'/>
+    <property name='p2.timestamp' value='1476680295532'/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
     <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
-  <artifacts size='10'>
-    <artifact classifier='binary' id='org.eclipse.rcp_root' version='4.5.1.v20150904-0015'>
-      <properties size='1'>
-        <property name='download.size' value='26220'/>
-      </properties>
-    </artifact>
-    <artifact classifier='binary' id='org.eclipse.emf.ecp.license.feature_root' version='1.7.0.20150914-1619'>
-      <properties size='1'>
-        <property name='download.size' value='9425'/>
-      </properties>
-    </artifact>
+  <artifacts size='11'>
     <artifact classifier='binary' id='org.eclipse.emf.ecoretools.design_root' version='3.0.1.201509151250'>
       <properties size='1'>
         <property name='download.size' value='8492'/>
@@ -41,14 +31,9 @@
         <property name='download.size' value='40240'/>
       </properties>
     </artifact>
-    <artifact classifier='binary' id='org.eclipse.emf.emfstore.license.feature_root' version='1.6.0.v20150915-0809'>
+    <artifact classifier='binary' id='org.eclipse.emf.emfstore.license.feature_root' version='1.7.0.v20160209-0511'>
       <properties size='1'>
         <property name='download.size' value='5609'/>
-      </properties>
-    </artifact>
-    <artifact classifier='binary' id='org.eclipse.cdt_root' version='8.8.0.201509131935'>
-      <properties size='1'>
-        <property name='download.size' value='2410'/>
       </properties>
     </artifact>
     <artifact classifier='binary' id='epp.package.modeling.executable.gtk.linux.x86' version='4.5.1.20150917-1200'>
@@ -56,9 +41,29 @@
         <property name='download.size' value='29391'/>
       </properties>
     </artifact>
+    <artifact classifier='binary' id='org.eclipse.emf.emfstore.license.feature_root' version='1.6.0.v20150915-0809'>
+      <properties size='1'>
+        <property name='download.size' value='5609'/>
+      </properties>
+    </artifact>
     <artifact classifier='binary' id='org.eclipse.sdk.examples_root' version='3.5.500.v20150904-0015'>
       <properties size='1'>
         <property name='download.size' value='150'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.cdt_root' version='8.8.0.201509131935'>
+      <properties size='1'>
+        <property name='download.size' value='2410'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.rcp_root' version='4.5.1.v20150904-0015'>
+      <properties size='1'>
+        <property name='download.size' value='26220'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.emf.ecp.license.feature_root' version='1.7.0.20150914-1619'>
+      <properties size='1'>
+        <property name='download.size' value='9425'/>
       </properties>
     </artifact>
   </artifacts>
