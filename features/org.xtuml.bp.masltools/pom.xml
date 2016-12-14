@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.xtuml.bp</groupId>
+    <artifactId>org.xtuml.bp.masltools.parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <relativePath>../org.xtuml.bp.masltools.parent/</relativePath>
+  </parent>
+  <groupId>org.xtuml.bp</groupId>
+  <artifactId>org.xtuml.bp.masltools</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>eclipse-feature</packaging>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>3.0.2</version>
+        <executions>
+          <execution>
+            <id>copy-resources-top</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${basedir}/linux.all/tools/masl</outputDirectory>
+              <resources>          
+                <resource>
+                  <directory>../../../mc/bin</directory>
+                  <includes>
+                    <include>*masl*</include>
+                  </includes>
+                  <filtering>true</filtering>
+                </resource>
+              </resources>              
+            </configuration>            
+          </execution>
+          <execution>
+            <id>copy-resources-lib</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${basedir}/linux.all/tools/masl/lib</outputDirectory>
+              <resources>          
+                <resource>
+                  <directory>../../build/extra_files/</directory>
+                  <includes>
+                    <include>m2x</include>
+                    <include>masl</include>
+                    <include>x2m</include>
+                  </includes>
+                  <filtering>true</filtering>
+                </resource>
+              </resources>              
+            </configuration>            
+          </execution>
+        </executions>
+      </plugin>
+      
+      <!--download the antlr jar file-->
+      <plugin>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>download-antlr</id>
+            <phase>validate</phase>
+            <configuration>
+              <tasks>
+                <get src="http://www.antlr3.org/download/antlr-3.5.2-complete.jar" 
+                     dest="${basedir}/linux.all/tools/masl/lib/antlr-3.5.2-complete.jar" />
+              </tasks>
+            </configuration>
+            <goals>
+              <goal>run</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+    </plugins>
+  </build>
+</project>
