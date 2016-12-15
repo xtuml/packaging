@@ -19,6 +19,7 @@
         <artifactId>maven-resources-plugin</artifactId>
         <version>3.0.2</version>
         <executions>
+          <!-- Populate the common/ folder -->
           <execution>
             <id>copy-resources-common</id>
             <phase>validate</phase>
@@ -40,26 +41,7 @@
             </configuration>            
           </execution>
 
-          <!--<execution>
-            <id>copy-resources-common-arc</id>
-            <phase>validate</phase>
-            <goals>
-              <goal>copy-resources</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>${basedir}/common/tools/mc</outputDirectory>
-              <resources>          
-                <resource>
-                  <directory>../../../mc/arc</directory>
-                  <excludes>
-                    <exclude>**/specialized</exclude>
-                  </excludes>
-                  <filtering>true</filtering>
-                </resource>
-              </resources>              
-            </configuration>            
-          </execution>-->
-
+          <!-- Populate the linux.all/ folder with the pre-compiled binaries-->
           <execution>
             <id>copy-resources-linux</id>
             <phase>validate</phase>
@@ -82,6 +64,7 @@
             </configuration>            
           </execution>
 
+          <!-- Populate the linux.all/ folder with the x_build script -->
           <execution>
             <id>copy-resources-linux-xbuild</id>
             <phase>validate</phase>
@@ -102,6 +85,7 @@
             </configuration>            
           </execution>
 
+          <!-- Populate the win.all/ folder with pre-compiled binaries -->
           <execution>
             <id>copy-resources-win</id>
             <phase>validate</phase>
@@ -125,7 +109,34 @@
           </execution>
         </executions>
       </plugin>
-  
+
+      <!-- This cleans up in case the arc specialized folder exists.  We
+           don't want to package it. It also creates a symbolic link for the
+           x_build script for common execution with the .exe extension. -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <version>1.8</version>
+        <executions>
+          <execution>
+            <phase>validate</phase>
+            <goals>
+              <goal>run</goal>
+            </goals>
+            <configuration>
+              <tasks>
+                <delete 
+                  dir="${basedir}/common/tools/mc/arc/specialized"
+                  includeemptydirs="true"/>
+                 
+                <symlink link="${basedir}/linux.all/tools/mc/bin/xtumlmc_build.exe" 
+                         resource="${basedir}/linux.all/tools/mc/bin/xtumlmc_build"/>  
+              </tasks>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+        
     </plugins>
   </build>
   
