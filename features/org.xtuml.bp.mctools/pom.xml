@@ -60,20 +60,6 @@
                   </includes>
                   <filtering>true</filtering>
                 </resource>
-              </resources>              
-            </configuration>            
-          </execution>
-
-          <!-- Populate the linux.all/ folder with the x_build script -->
-          <execution>
-            <id>copy-resources-linux-xbuild</id>
-            <phase>validate</phase>
-            <goals>
-              <goal>copy-resources</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>${basedir}/linux.all/tools/mc/bin</outputDirectory>
-              <resources>          
                 <resource>
                   <directory>../../../mc/bin</directory>
                   <includes>
@@ -104,6 +90,13 @@
                   </includes>
                   <filtering>true</filtering>
                 </resource>
+                <resource>
+                  <directory>../../../mc/bin</directory>
+                  <includes>
+                    <include>xtumlmc_build</include>
+                  </includes>
+                  <filtering>true</filtering>
+                </resource>                
               </resources>              
             </configuration>            
           </execution>
@@ -124,14 +117,14 @@
               <goal>run</goal>
             </goals>
             <configuration>
-              <tasks>
+              <target>
                 <delete 
                   dir="${basedir}/common/tools/mc/arc/specialized"
-                  includeemptydirs="true"/>
-                 
-                <symlink link="${basedir}/linux.all/tools/mc/bin/xtumlmc_build.exe" 
-                         resource="${basedir}/linux.all/tools/mc/bin/xtumlmc_build"/>  
-              </tasks>
+                  includeemptydirs="true"/>        
+                <copy file="${basedir}/linux.all/tools/mc/bin/xtumlmc_build" 
+                      tofile="${basedir}/linux.all/tools/mc/bin/xtumlmc_build.exe"
+                      overwrite="true" />             
+              </target>
             </configuration>
           </execution>
         </executions>
