@@ -30,7 +30,7 @@
               <goal>copy-resources</goal>
             </goals>
             <configuration>
-              <outputDirectory>${basedir}/linux.all/tools/masl</outputDirectory>
+              <outputDirectory>${basedir}/linux.all/tools/mc/bin</outputDirectory>
               <resources>          
                 <resource>
                   <directory>../../../mc/bin</directory>
@@ -49,7 +49,7 @@
               <goal>copy-resources</goal>
             </goals>
             <configuration>
-              <outputDirectory>${basedir}/linux.all/tools/masl/lib</outputDirectory>
+              <outputDirectory>${basedir}/linux.all/tools/mc/bin</outputDirectory>
               <resources>          
                 <resource>
                   <directory>../../build/extra_files/</directory>
@@ -76,7 +76,7 @@
             <configuration>
               <tasks>
                 <get src="http://www.antlr3.org/download/antlr-3.5.2-complete.jar" 
-                     dest="${basedir}/linux.all/tools/masl/lib/antlr-3.5.2-complete.jar" />
+                     dest="${basedir}/linux.all/tools/mc/bin/antlr-3.5.2-complete.jar" />
               </tasks>
             </configuration>
             <goals>
