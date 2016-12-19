@@ -12,6 +12,10 @@
   <artifactId>org.xtuml.bp.mctools</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>eclipse-feature</packaging>
+  <properties>
+    <project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>ISO-8859-1</project.reporting.outputEncoding>
+  </properties>
   
   <build>
     <plugins>
