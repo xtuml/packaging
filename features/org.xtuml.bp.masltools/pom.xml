@@ -43,7 +43,7 @@
             </configuration>            
           </execution>
           <execution>
-            <id>copy-resources-lib</id>
+            <id>copy-resources-binaries</id>
             <phase>validate</phase>
             <goals>
               <goal>copy-resources</goal>
