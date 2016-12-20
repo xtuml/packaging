@@ -103,8 +103,8 @@
       </plugin>
 
       <!-- This cleans up in case the arc specialized folder exists.  We
-           don't want to package it. It also creates a symbolic link for the
-           x_build script for common execution with the .exe extension. -->
+           don't want to package it. It also creates a copy for the
+           xtumlmc_build script for common execution with the .exe extension. -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-antrun-plugin</artifactId>
