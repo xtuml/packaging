@@ -39,7 +39,6 @@
                     <include>arc/**</include>
                     <include>schema/**</include>
                   </includes>
-                  <filtering>true</filtering>
                 </resource>
               </resources>              
             </configuration>            
@@ -62,14 +61,12 @@
                     <include>mcmc</include>
                     <include>mcmc64</include>
                   </includes>
-                  <filtering>true</filtering>
                 </resource>
                 <resource>
                   <directory>../../../mc/bin</directory>
                   <includes>
                     <include>xtumlmc_build</include>
                   </includes>
-                  <filtering>true</filtering>
                 </resource>
               </resources>              
             </configuration>            
@@ -92,14 +89,12 @@
                     <include>mcmc.exe</include>
                     <include>xtumlmc_build.exe</include>
                   </includes>
-                  <filtering>true</filtering>
                 </resource>
                 <resource>
                   <directory>../../../mc/bin</directory>
                   <includes>
                     <include>xtumlmc_build</include>
                   </includes>
-                  <filtering>true</filtering>
                 </resource>                
               </resources>              
             </configuration>            

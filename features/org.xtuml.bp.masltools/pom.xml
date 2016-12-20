@@ -37,7 +37,6 @@
                   <includes>
                     <include>*masl*</include>
                   </includes>
-                  <filtering>true</filtering>
                 </resource>
               </resources>              
             </configuration>            
@@ -58,7 +57,6 @@
                     <include>masl</include>
                     <include>x2m</include>
                   </includes>
-                  <filtering>true</filtering>
                 </resource>
               </resources>              
             </configuration>            
