@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: genie.edapt
+Created-By: Apache Maven
+Build-Jdk: 1.7.0_75
+
+Name: META-INF/maven/edapt/org.eclipse.emf.edapt.runtime.feature/pom.p
+ roperties
+SHA-256-Digest: LuN9l9Lrlvx30FrBOSBhjGyB7keZ4RYViCQd16LkPIE=
+
+Name: epl-v10.html
+SHA-256-Digest: mpbQ2vmKpvtKpTDTmcdCxmEhsL2uSh9/+iLSE14d9/0=
+
+Name: META-INF/maven/edapt/org.eclipse.emf.edapt.runtime.feature/pom.x
+ ml
+SHA-256-Digest: h4iyEb3wNZJTnTfruLF2bTmRUnaYXKgZVxZDA9OTkJg=
+
+Name: feature.xml
+SHA-256-Digest: 5z1/5RDF8n0jvGeRfn7ifXwI/j9Eq3RKBNtPJsLjHVo=
+
+Name: feature.properties
+SHA-256-Digest: BRJW9WKNCEojuQdGY8aFZALhbvfpV97/2zZ9kvdF9ac=
+
+Name: license.html
+SHA-256-Digest: X315zLynvdLZ4DaYSopgxruQUUEadA3FOPNviC+YO24=
+

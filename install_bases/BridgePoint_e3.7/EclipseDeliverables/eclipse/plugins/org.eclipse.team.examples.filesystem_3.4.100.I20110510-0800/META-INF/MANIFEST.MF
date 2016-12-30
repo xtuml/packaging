@@ -1,0 +1,78 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-SymbolicName: org.eclipse.team.examples.filesystem; singleton:=
+ true
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/ecl
+ ipse:org.eclipse.team.examples.filesystem;tag=I20110510-0800
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActiva
+ tor
+Require-Bundle: org.eclipse.core.runtime.compatibility,org.eclipse.ui.
+ ide;resolution:=optional,org.eclipse.ui.views;resolution:=optional,or
+ g.eclipse.jface.text;resolution:=optional,org.eclipse.ui.workbench.te
+ xteditor;resolution:=optional,org.eclipse.ui.editors;resolution:=opti
+ onal,org.eclipse.core.resources,org.eclipse.team.core,org.eclipse.tea
+ m.ui,org.eclipse.compare,org.eclipse.ui,org.eclipse.core.filesystem,o
+ rg.eclipse.ui.navigator
+Export-Package: org.eclipse.team.examples.filesystem,org.eclipse.team.
+ examples.filesystem.history,org.eclipse.team.examples.filesystem.subs
+ criber,org.eclipse.team.examples.filesystem.ui,org.eclipse.team.examp
+ les.localhistory,org.eclipse.team.examples.model,org.eclipse.team.exa
+ mples.model.mapping,org.eclipse.team.examples.model.ui,org.eclipse.te
+ am.examples.model.ui.mapping,org.eclipse.team.examples.pessimistic,or
+ g.eclipse.team.examples.pessimistic.ui
+Bundle-Version: 3.4.100.I20110510-0800
+Bundle-ClassPath: teamfilesystem.jar
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Plugin-Class: org.eclipse.team.examples.filesystem.FileSystemPlugin
+Bundle-ManifestVersion: 2
+
+Name: icons/full/wizards/synced.gif
+SHA1-Digest: Ghj9SQaJ6vJj8hRCpmwiAfHF1uI=
+
+Name: doc-html/team_localhistory_ex.html
+SHA1-Digest: P3KohP7Iv9esalnbW6mOqVTFkQk=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: doc-html/team_filesystem_ex.html
+SHA1-Digest: rZaGn2XQ/lT4AVACto4QcJQg+jk=
+
+Name: icons/full/obj/fldr_obj.gif
+SHA1-Digest: 5TF7ftfUsp4Z3KdTaSlgyQoFpuk=
+
+Name: about.html
+SHA1-Digest: ejOZra0kypGLQQ2bJtGTX+LI8tU=
+
+Name: icons/full/obj/mod_obj.gif
+SHA1-Digest: oR/gcUzp05aRXxYQSQ8TLh9vFSg=
+
+Name: plugin.properties
+SHA1-Digest: qKkFJE+MnTAnXpmLoVYVFZL3gyc=
+
+Name: icons/full/obj/moe_obj.gif
+SHA1-Digest: OTIaEAHeJKMlx0H/h+IV9QXx9kE=
+
+Name: icons/full/obj/prj_obj.gif
+SHA1-Digest: jQTf8LRxCKZlLXXvgJnotfjWr8U=
+
+Name: icons/full/obj/root_obj.gif
+SHA1-Digest: 9OByEH4YuWXI4QXV8JAgkOi1Lio=
+
+Name: teamfilesystem.jar
+SHA1-Digest: NC7OnrTXzKwXquUgbUsF15lkZPw=
+
+Name: icons/full/wizards/fsicon_wiz.gif
+SHA1-Digest: Q97wuDKt2xjLcaL4nAo9u3C4T28=
+
+Name: icons/full/wizban/newconnect_wizban.png
+SHA1-Digest: MYSPBe5/27J9VtVCbj7TLqa0Bdc=
+
+Name: plugin.xml
+SHA1-Digest: EbSl8Awc6kdc4zFMZcJHBpEuVps=
+
+Name: doc-html/team_model_ex.html
+SHA1-Digest: 6Myo/ui44JlOEYbs3XlmKoVXDGo=
+

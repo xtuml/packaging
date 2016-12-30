@@ -1,0 +1,38 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: klZqxgO0WcFp0Hph8JZVqU0WAdiPO
+ KuReUU+5Gyarv4=
+SHA-256-Digest-Manifest: WpIPq06lzePh6qOHSM5T5HbhTtlfHWPRGrocJn3o+jQ=
+Created-By: 1.8.0_51 (Oracle Corporation)
+
+Name: about.html
+SHA-256-Digest: jEcjHA58Meafbb1Hul0hg6TF7fo6nouLcO99IVZbhgk=
+
+Name: os/win32/x86/listtasks.exe
+SHA-256-Digest: 77tKdY2lMzwhmAiu2lsYQCIV07PkUT0r5J8uq624u1c=
+
+Name: os/win32/x86/spawner.dll
+SHA-256-Digest: H80aTFQjMhK8DDCNQ9gZGeM5tPqqhxG2snXPmdA4wa8=
+
+Name: os/win32/x86/winreg.dll
+SHA-256-Digest: nM4p6Ndjlbf+ONrmz87iadECRh01HgrSCU/IHiPr8rs=
+
+Name: META-INF/maven/org.eclipse.cdt/org.eclipse.cdt.core.win32.x86/po
+ m.properties
+SHA-256-Digest: mUlJt6CCK/5U02y4oo4mnbL6lpf+WN2YLnqAihlN5ZA=
+
+Name: os/win32/x86/pty.dll
+SHA-256-Digest: ++qqrX964PjCBCugBgLT/rwiF0WgNn3EjadfWNz/BBE=
+
+Name: META-INF/maven/org.eclipse.cdt/org.eclipse.cdt.core.win32.x86/po
+ m.xml
+SHA-256-Digest: 0gGVcuk1Oq+c1ibw1DbBhJ2VxP1kWPTdv5pPCjw6OyY=
+
+Name: os/win32/x86/starter.exe
+SHA-256-Digest: VSVcD3qOeaW8wERkR5FjAjieyYGqX8Z2POM+gEWfW5U=
+
+Name: os/win32/x86/winpty-agent.exe
+SHA-256-Digest: ZPBR0l/SGxvWpQUQMmvLLmJjpMZj79TB6zGymtcXxnE=
+
+Name: os/win32/x86/winpty.dll
+SHA-256-Digest: v2l4YkXISO7F2l8pgh2/pTnoUUI9r0BKxk5zar/VK30=
+

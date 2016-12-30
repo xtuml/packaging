@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.antlr.doc
+Bundle-SymbolicName: org.antlr.doc; singleton:=true
+Bundle-Version: 2.7.6.20140601-0730
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActivator
+Bundle-Vendor: ekrisza
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime;bundle-version="2.1",
+ org.eclipse.core.runtime.compatibility
+Bundle-ActivationPolicy: lazy

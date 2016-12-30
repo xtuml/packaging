@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="ANTLR Reference Manual">
+	<topic label="ANTLR 2.7.6 release notes"
+		href="http://www.antlr.org/blog/CHANGES-2.7.6.txt"/>
+
+	<topic label="ANTLR Meta-Language" href="doc/metalang.html#_bb1"/>
+
+	<topic label="Lexical Analysis with ANTLR" href="doc/lexer.html#Lexical_Analysis_with_ANTLR"/>
+
+	<topic label="ANTLR Tree Parsers" href="doc/sor.html#_bb1"/>
+
+	<topic label="Token Streams" href="doc/streams.html"/>
+
+	<topic label="Token Vocabularies" href="doc/vocab.html"/>
+
+	<topic label="Error Handling and Recovery" href="doc/err.html#_bb1"/>
+
+	<topic label="Java Runtime Model" href="doc/runtime.html#_bb1"/>
+
+	<topic label="C++ Runtime model" href="doc/cpp-runtime.html#_bb1"/>
+
+	<topic label="C# Runtime model" href="doc/csharp-runtime.html"/>
+
+	<topic label="Python Runtime model" href="doc/python-runtime.html"/>
+
+	<topic label="ANTLR Tree Construction" href="doc/trees.html#_bb1"/>
+
+	<topic label="Grammar Inheritance" href="doc/inheritance.html#_bb1"/>
+
+	<topic label="Options" href="doc/options.html#Options"/>
+	<topic label="Parsing XML with ANTLR" href="doc/xml-support.html"/>
+	<topic label="Debugging ANTLR Grammars" href="doc/debugging.html"/>
+	<topic label="Glossary" href="doc/glossary.html"/>
+</toc>

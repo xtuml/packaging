@@ -1,0 +1,32 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: lW6KIjcowSYI9N7Efby+vD8MG3kax
+ 7eD+6I+84X7f+A=
+SHA-256-Digest-Manifest: nNDdOkJf3BbMBC7jwDncP1HuE2cTKpXY7nj1zU9nH3s=
+Created-By: 1.8.0_51 (Oracle Corporation)
+
+Name: about.html
+SHA-256-Digest: 4EGy8L4yqs+1g045/oZGbrzZvjzpgQf/UYfLQ/KnEEY=
+
+Name: META-INF/maven/org.eclipse.emf.emfstore/org.eclipse.emf.emfstore
+ .server.feature/pom.xml
+SHA-256-Digest: sn2qO+Y4aX+1fufDcgUrhdtzAdjGZgm6HYyManWZHqU=
+
+Name: epl-v10.html
+SHA-256-Digest: Stexe2sadP/rifV37JdND+zyyf31OuZXSDs9dB8mzPU=
+
+Name: META-INF/maven/org.eclipse.emf.emfstore/org.eclipse.emf.emfstore
+ .server.feature/pom.properties
+SHA-256-Digest: NlYXAAZSDLN3GBG2K5dXUr9OieN8mNOFSz1utNdAO/A=
+
+Name: copyright.txt
+SHA-256-Digest: +YlvSTigDFk2mdRv8bn9j/o5Iy2u8KG2m5H6TzGIE58=
+
+Name: feature.xml
+SHA-256-Digest: WR9/wEWHtaLkAlkBJ2x/U9Pyw8sXe5HGDf3vhHkDelg=
+
+Name: feature.properties
+SHA-256-Digest: DYeKgSdMK+GbrT99ftxk1ff/+YfCAq54Catr62wHM7E=
+
+Name: license.html
+SHA-256-Digest: gb5ZzrbOyFArzDLUIG4huZV/GHHBYb0EtixuMKXnhqs=
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.ecp.e4.feature"
+      label="ECP e4 UI Integration"
+      version="1.7.0.20150914-1619"
+      provider-name="%providerName"
+      plugin="org.eclipse.emf.ecp.ui.e4"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.emf.ecp.feature"
+         version="1.7.0.20150914-1619"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.ui.e4"
+         download-size="43"
+         install-size="76"
+         version="1.7.0.20150914-1619"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.emfstore.ui.e4"
+         download-size="42"
+         install-size="100"
+         version="1.7.0.20150914-1619"
+         unpack="false"/>
+
+</feature>

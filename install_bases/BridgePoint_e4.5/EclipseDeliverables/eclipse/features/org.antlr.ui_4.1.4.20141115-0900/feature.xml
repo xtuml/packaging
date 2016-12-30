@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.antlr.ui"
+      label="org.antlr.ui"
+      version="4.1.4.20141115-0900"
+      provider-name="VaultTec.org, JavaDude.com">
+
+   <description url="http://antlreclipse.sourceforge.net/">
+      This feature is an user interface for the ANTLR 
+framework for constructing recognizers, 
+compilers, and translators (http://www.antlr.org/).
+It consists of five plugins, two hold the ANTLR binaries
+and documentation, the others contain a compiler and
+an editor for ANTLR grammar files, and the ANTLR XML Support
+plugin.
+   </description>
+
+   <copyright>
+      Copyright 2003, VaultTec.org
+   </copyright>
+
+   <license>
+      Unless otherwise indicated, all Content made available by VaultTec.org and 
+JavaDude.com is provided to you under the terms and conditions of the
+Common Public License Version 1.0 (CPL).
+A copy of the CPL is provided with this Content and is also available
+at http://www.eclipse.org/legal/cpl-v10.html.
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.jdt.ui"/>
+      <import plugin="org.eclipse.ui"/>
+   </requires>
+
+   <plugin
+         id="org.antlr"
+         download-size="0"
+         install-size="0"
+         version="2.7.6.20141115-0900"/>
+
+   <plugin
+         id="org.antlr.doc"
+         download-size="0"
+         install-size="0"
+         version="2.7.6.20140601-0730"/>
+
+   <plugin
+         id="org.antlr.eclipse.core"
+         download-size="0"
+         install-size="0"
+         version="4.1.4.20141115-0900"/>
+
+   <plugin
+         id="org.antlr.eclipse.ui"
+         download-size="0"
+         install-size="0"
+         version="4.1.4.20141115-0900"/>
+
+</feature>

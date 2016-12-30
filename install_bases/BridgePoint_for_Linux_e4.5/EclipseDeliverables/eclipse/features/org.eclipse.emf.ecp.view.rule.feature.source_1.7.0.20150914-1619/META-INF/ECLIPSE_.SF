@@ -1,0 +1,44 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: VY2HvXkCV3X2A/Ga8H+FKZQUF0ZWq
+ OuImBXs/K2gcxs=
+SHA-256-Digest-Manifest: tY3wk2c2em20yubw9rOAg9g4JXhPHiLDu7OpHKMNqlo=
+Created-By: 1.8.0_51 (Oracle Corporation)
+
+Name: rootfiles/notice.html
+SHA-256-Digest: 9wCcqjFWRrQs9XeonPoDsaXTp9lGmWB7ej04tmFI/Ro=
+
+Name: about.html
+SHA-256-Digest: 4EGy8L4yqs+1g045/oZGbrzZvjzpgQf/UYfLQ/KnEEY=
+
+Name: rootfiles/epl-v10.html
+SHA-256-Digest: th96p3aCNb9VB7/JYL3wL6EVYqzZZsgc4CRtQ3b4UQc=
+
+Name: META-INF/maven/org.eclipse.emf.ecp/org.eclipse.emf.ecp.view.rule
+ .feature/pom.xml
+SHA-256-Digest: qmq9u2uWbd7Rst+KbgBotG7fU5d0CmNWmkkj4SgRRas=
+
+Name: rootfiles/about.html
+SHA-256-Digest: G3q/c5/kmFxWyg22lBoZndMtqABeSbFsp5s5GxbHgy8=
+
+Name: epl-v10.html
+SHA-256-Digest: 8GSw4aNBim+4CHFc1TYSYQy3Ei4T2BVP57HxmJUvTBs=
+
+Name: copyright.txt
+SHA-256-Digest: CK4Dee4Yf5nIMuELLYRTg8N+bMZnLechsUmHS0V6c7A=
+
+Name: feature.xml
+SHA-256-Digest: XfVSA/cadxFbSIcCyVa34uesd35V94IHDZOMtOVAB+0=
+
+Name: eclipse_update_120.jpg
+SHA-256-Digest: D0fcUhJi81TIzNC+lAri7RDcArlCr58r7+VK17FdonE=
+
+Name: META-INF/maven/org.eclipse.emf.ecp/org.eclipse.emf.ecp.view.rule
+ .feature/pom.properties
+SHA-256-Digest: ulEt/HD4COsibrRsDSz+WWEr7tlzKtc/rD950ubgrtU=
+
+Name: feature.properties
+SHA-256-Digest: 2AudwBLITI1M13ibJFbYqBCxJVtPNT97dyCUIu7XIq4=
+
+Name: license.html
+SHA-256-Digest: gb5ZzrbOyFArzDLUIG4huZV/GHHBYb0EtixuMKXnhqs=
+

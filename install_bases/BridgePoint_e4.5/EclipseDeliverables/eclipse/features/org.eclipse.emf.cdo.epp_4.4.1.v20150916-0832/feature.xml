@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- contextQualifierLength=14 -->
+<!-- contextQualifierLength=14 -->
+<feature
+      id="org.eclipse.emf.cdo.epp"
+      label="%featureName"
+      version="4.4.1.v20150916-0832"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://www.eclipse.org/modeling/updates/"/>
+      <discovery label="%updateSiteName" url="http://www.eclipse.org/modeling/updates/"/>
+   </url>
+
+   <includes
+         id="org.eclipse.emf.cdo"
+         version="4.4.1.v20150914-0747"/>
+
+   <includes
+         id="org.eclipse.emf.cdo.server"
+         version="4.4.1.v20150914-0747"/>
+
+   <includes
+         id="org.eclipse.net4j"
+         version="4.4.1.v20150912-0814"/>
+
+   <includes
+         id="org.eclipse.net4j.db"
+         version="4.4.1.v20150911-1807"/>
+
+   <includes
+         id="org.eclipse.net4j.db.h2"
+         version="4.2.200.v20150911-1807"/>
+
+   <includes
+         id="org.eclipse.emf.cdo.server.db"
+         version="4.3.1.v20150911-1807"/>
+
+   <includes
+         id="org.eclipse.emf.cdo.examples.installer"
+         version="4.2.201.v20150914-0747"/>
+
+   <includes
+         id="org.eclipse.net4j.examples.installer"
+         version="4.2.200.v20150610-1925"/>
+
+   <includes
+         id="org.eclipse.emf.cdo.compare"
+         version="4.3.1.v20150915-0638"/>
+
+   <includes
+         id="org.eclipse.emf.cdo.doc"
+         version="4.2.201.v20150916-0832"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.migrator"
+         download-size="0"
+         install-size="0"
+         version="3.0.501.v20150914-0747"
+         unpack="false"/>
+
+</feature>
