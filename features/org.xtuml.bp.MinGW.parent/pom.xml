@@ -33,11 +33,6 @@
           <allowConflictingDependencies>true</allowConflictingDependencies>
           <includePackedArtifacts>true</includePackedArtifacts>
           <environments>
-            <!--<environment>
-              <os>win32</os>
-              <ws>win32</ws>
-              <arch>x86</arch>
-            </environment>-->
             <environment>
               <os>win32</os>
               <ws>win32</ws>
