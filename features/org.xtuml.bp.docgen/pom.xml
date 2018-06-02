@@ -12,4 +12,79 @@
   <artifactId>org.xtuml.bp.docgen</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>eclipse-feature</packaging>
+  
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>3.0.2</version>
+        <executions>
+
+          <!-- Populate the linux.all/ folder with the pre-compiled binaries-->
+          <execution>
+            <id>copy-resources-linux</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${basedir}/linux.all/tools/docgen</outputDirectory>
+              <resources>          
+                <resource>
+                  <directory>../../../mc/bin/</directory>
+                  <includes>
+                    <include>docgen</include>
+                  </includes>
+                </resource>
+              </resources>              
+            </configuration>            
+          </execution>
+
+          <!-- Populate the mac.all/ folder with the pre-compiled binaries-->
+          <execution>
+            <id>copy-resources-mac</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${basedir}/mac.all/tools/docgen</outputDirectory>
+              <resources>          
+                <resource>
+                  <directory>../../../mc/bin/mac/</directory> 
+                  <includes>
+                    <include>docgen</include>
+                  </includes>
+                </resource>
+              </resources>              
+            </configuration>            
+          </execution>
+
+          <!-- Populate the win.all/ folder with the pre-compiled binaries-->
+          <execution>
+            <id>copy-resources-win</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${basedir}/win32.all/tools/docgen</outputDirectory>
+              <resources>          
+                <resource>
+                  <directory>../../../mc/bin/win/</directory> 
+                  <includes>
+                    <include>docgen.exe</include>
+                  </includes>
+                </resource>
+              </resources>              
+            </configuration>            
+          </execution>
+
+        </executions>
+      </plugin>
+
+    </plugins>
+  </build>
+  
+  
 </project>
